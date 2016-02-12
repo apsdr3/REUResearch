@@ -1,0 +1,290 @@
+2016-02-12 00:26:55.228 [ItemChannelLinkAddedEvent ] - Link 'Weather_Temperature-yahooweather:weather:berlin:temperature' has been added.
+2016-02-12 00:26:55.300 [ItemChannelLinkAddedEvent ] - Link 'Sun_Elevation-astro:sun:home:position#elevation' has been added.
+2016-02-12 00:26:55.305 [ItemChannelLinkAddedEvent ] - Link 'CurrentDate-ntp:ntp:demo:dateTime' has been added.
+2016-02-12 00:26:58.193 [ThingAddedEvent           ] - Thing 'ntp:ntp:demo' has been added.
+2016-02-12 00:26:58.194 [hingStatusInfoChangedEvent] - 'ntp:ntp:demo' changed from UNINITIALIZED to INITIALIZING
+2016-02-12 00:26:58.249 [ThingAddedEvent           ] - Thing 'yahooweather:weather:berlin' has been added.
+2016-02-12 00:26:58.251 [hingStatusInfoChangedEvent] - 'yahooweather:weather:berlin' changed from UNINITIALIZED to INITIALIZING
+2016-02-12 00:26:58.252 [hingStatusInfoChangedEvent] - 'yahooweather:weather:berlin' changed from INITIALIZING to ONLINE
+2016-02-12 00:26:58.379 [GroupItemStateChangedEvent] - Weather changed from NULL to UNDEF through Weather_Temperature
+2016-02-12 00:26:58.379 [GroupItemStateChangedEvent] - Weather_Chart changed from NULL to UNDEF through Weather_Temperature
+2016-02-12 00:26:59.213 [InboxAddedEvent           ] - Discovery Result with UID 'ntp:ntp:local' has been added.
+2016-02-12 00:27:01.226 [ItemStateChangedEvent     ] - Weather_Temperature changed from NULL to 0
+2016-02-12 00:27:01.284 [GroupItemStateChangedEvent] - gGF changed from NULL to UNDEF through GF_Living
+2016-02-12 00:27:01.290 [GroupItemStateChangedEvent] - GF_Living changed from NULL to UNDEF through Light_GF_Living_Table
+2016-02-12 00:27:01.296 [GroupItemStateChangedEvent] - Lights changed from NULL to OFF through Light_GF_Living_Table
+2016-02-12 00:27:01.302 [ItemStateChangedEvent     ] - Light_GF_Living_Table changed from NULL to 0
+2016-02-12 00:27:01.304 [GroupItemStateChangedEvent] - GF_Corridor changed from NULL to UNDEF through Light_GF_Corridor_Ceiling
+2016-02-12 00:27:01.304 [ItemStateChangedEvent     ] - Light_GF_Corridor_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.306 [ItemStateChangedEvent     ] - Light_GF_Kitchen_Table changed from NULL to OFF
+2016-02-12 00:27:01.308 [GroupItemStateChangedEvent] - Lights changed from OFF to ON through Light_GF_Corridor_Wardrobe
+2016-02-12 00:27:01.309 [ItemStateChangedEvent     ] - Light_GF_Corridor_Wardrobe changed from NULL to ON
+2016-02-12 00:27:01.309 [GroupItemStateChangedEvent] - GF_Toilet changed from NULL to UNDEF through Light_GF_Toilet_Ceiling
+2016-02-12 00:27:01.310 [ItemStateChangedEvent     ] - Light_GF_Toilet_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.310 [ItemStateChangedEvent     ] - Light_GF_Toilet_Mirror changed from NULL to OFF
+2016-02-12 00:27:01.311 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from NULL to 2016-02-12T00:27:01
+2016-02-12 00:27:01.312 [GroupItemStateChangedEvent] - GF_Kitchen changed from NULL to UNDEF through Light_GF_Kitchen_Ceiling
+2016-02-12 00:27:01.312 [ItemStateChangedEvent     ] - Light_GF_Kitchen_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.313 [GroupItemStateChangedEvent] - gFF changed from NULL to UNDEF through FF_Bath
+2016-02-12 00:27:01.313 [GroupItemStateChangedEvent] - FF_Bath changed from NULL to UNDEF through Light_FF_Bath_Ceiling
+2016-02-12 00:27:01.314 [ItemStateChangedEvent     ] - Light_FF_Bath_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.314 [ItemStateChangedEvent     ] - Light_FF_Bath_Mirror changed from NULL to OFF
+2016-02-12 00:27:01.314 [GroupItemStateChangedEvent] - FF_Corridor changed from NULL to OFF through Light_FF_Corridor_Ceiling
+2016-02-12 00:27:01.315 [ItemStateChangedEvent     ] - Light_FF_Corridor_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.316 [GroupItemStateChangedEvent] - FF_Office changed from NULL to UNDEF through Light_FF_Office_Ceiling
+2016-02-12 00:27:01.316 [ItemStateChangedEvent     ] - Light_FF_Office_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.316 [GroupItemStateChangedEvent] - FF_Child changed from NULL to UNDEF through Light_FF_Child_Ceiling
+2016-02-12 00:27:01.317 [ItemStateChangedEvent     ] - Light_FF_Child_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.318 [GroupItemStateChangedEvent] - FF_Bed changed from NULL to UNDEF through Light_FF_Bed_Ceiling
+2016-02-12 00:27:01.318 [ItemStateChangedEvent     ] - Light_FF_Bed_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.319 [GroupItemStateChangedEvent] - gC changed from NULL to UNDEF through Light_C_Corridor_Ceiling
+2016-02-12 00:27:01.320 [ItemStateChangedEvent     ] - Light_C_Corridor_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.320 [ItemStateChangedEvent     ] - Light_C_Staircase changed from NULL to ON
+2016-02-12 00:27:01.320 [ItemStateChangedEvent     ] - Light_C_Washing_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.322 [ItemStateChangedEvent     ] - Light_C_Workshop changed from NULL to OFF
+2016-02-12 00:27:01.322 [GroupItemStateChangedEvent] - Garden changed from NULL to UNDEF through Light_Garden_Garage
+2016-02-12 00:27:01.322 [ItemStateChangedEvent     ] - Light_Garden_Garage changed from NULL to OFF
+2016-02-12 00:27:01.324 [ItemStateChangedEvent     ] - Light_Garden_Terrace changed from NULL to OFF
+2016-02-12 00:27:01.324 [GroupItemStateChangedEvent] - Heating changed from NULL to OFF through Heating_GF_Corridor
+2016-02-12 00:27:01.426 [ItemStateChangedEvent     ] - Heating_GF_Corridor changed from NULL to OFF
+2016-02-12 00:27:01.447 [ThingAddedEvent           ] - Thing 'astro:sun:home' has been added.
+2016-02-12 00:27:01.447 [hingStatusInfoChangedEvent] - 'astro:sun:home' changed from UNINITIALIZED to INITIALIZING
+2016-02-12 00:27:01.447 [ItemStateChangedEvent     ] - Heating_GF_Toilet changed from NULL to OFF
+2016-02-12 00:27:01.448 [ItemStateChangedEvent     ] - Weather_Temp_Max changed from NULL to 0
+2016-02-12 00:27:01.454 [hingStatusInfoChangedEvent] - 'astro:sun:home' changed from INITIALIZING to ONLINE
+2016-02-12 00:27:01.464 [ItemStateChangedEvent     ] - Heating_GF_Living changed from NULL to OFF
+2016-02-12 00:27:01.473 [GroupItemStateChangedEvent] - Weather_Chart changed from UNDEF to 0 through Weather_Temp_Min
+2016-02-12 00:27:01.474 [ItemStateChangedEvent     ] - Weather_Temp_Min changed from NULL to 0
+2016-02-12 00:27:01.495 [ItemStateChangedEvent     ] - Heating_GF_Kitchen changed from NULL to OFF
+2016-02-12 00:27:01.508 [ItemStateChangedEvent     ] - Heating_FF_Bath changed from NULL to OFF
+2016-02-12 00:27:01.508 [GroupItemStateChangedEvent] - Heating changed from OFF to ON through Heating_FF_Office
+2016-02-12 00:27:01.515 [ItemStateChangedEvent     ] - Heating_FF_Office changed from NULL to ON
+2016-02-12 00:27:01.525 [ItemStateChangedEvent     ] - Heating_FF_Child changed from NULL to ON
+2016-02-12 00:27:01.529 [ItemStateChangedEvent     ] - Heating_FF_Bed changed from NULL to ON
+2016-02-12 00:27:01.529 [ItemStateChangedEvent     ] - Temperature_Setpoint changed from NULL to 22
+2016-02-12 00:27:01.530 [GroupItemStateChangedEvent] - Windows changed from NULL to OPEN through Window_GF_Frontdoor
+2016-02-12 00:27:01.530 [ItemStateChangedEvent     ] - Window_GF_Frontdoor changed from NULL to OPEN
+2016-02-12 00:27:01.530 [ItemStateChangedEvent     ] - Window_GF_Kitchen changed from NULL to CLOSED
+2016-02-12 00:27:01.530 [ItemStateChangedEvent     ] - Window_GF_Living changed from NULL to OPEN
+2016-02-12 00:27:01.540 [ItemStateChangedEvent     ] - Window_GF_Toilet changed from NULL to CLOSED
+2016-02-12 00:27:01.540 [ItemStateChangedEvent     ] - Window_FF_Bath changed from NULL to CLOSED
+2016-02-12 00:27:01.540 [ItemStateChangedEvent     ] - Window_FF_Bed changed from NULL to OPEN
+2016-02-12 00:27:01.540 [ItemStateChangedEvent     ] - Window_FF_Office_Window changed from NULL to CLOSED
+2016-02-12 00:27:01.541 [ItemStateChangedEvent     ] - Window_FF_Office_Door changed from NULL to CLOSED
+2016-02-12 00:27:01.541 [ItemStateChangedEvent     ] - Garage_Door changed from NULL to OPEN
+2016-02-12 00:27:01.542 [ItemStateChangedEvent     ] - DemoLocation changed from NULL to 52.5200066,13.4049540
+2016-02-12 00:27:01.544 [GroupItemStateChangedEvent] - Status changed from NULL to 17.9 through Temperature
+2016-02-12 00:27:01.545 [GroupItemStateChangedEvent] - Temperature changed from NULL to 17.9 through Temperature_GF_Corridor
+2016-02-12 00:27:01.545 [ItemStateChangedEvent     ] - Temperature_GF_Corridor changed from NULL to 17.9
+2016-02-12 00:27:01.545 [GroupItemStateChangedEvent] - Status changed from 17.9 to 20.0 through Temperature
+2016-02-12 00:27:01.545 [GroupItemStateChangedEvent] - Temperature changed from 17.9 to 20.0 through Temperature_GF_Toilet
+2016-02-12 00:27:01.546 [ItemStateChangedEvent     ] - Temperature_GF_Toilet changed from NULL to 22.0
+2016-02-12 00:27:01.546 [GroupItemStateChangedEvent] - Status changed from 20.0 to 19.8 through Temperature
+2016-02-12 00:27:01.546 [GroupItemStateChangedEvent] - Temperature changed from 20.0 to 19.8 through Temperature_GF_Living
+2016-02-12 00:27:01.546 [ItemStateChangedEvent     ] - Temperature_GF_Living changed from NULL to 19.5
+2016-02-12 00:27:01.547 [GroupItemStateChangedEvent] - Status changed from 19.8 to 20.5 through Temperature
+2016-02-12 00:27:01.547 [GroupItemStateChangedEvent] - Temperature changed from 19.8 to 20.5 through Temperature_GF_Kitchen
+2016-02-12 00:27:01.547 [ItemStateChangedEvent     ] - Temperature_GF_Kitchen changed from NULL to 22.4
+2016-02-12 00:27:01.548 [GroupItemStateChangedEvent] - Status changed from 20.5 to 20.4 through Temperature
+2016-02-12 00:27:01.548 [GroupItemStateChangedEvent] - Temperature changed from 20.5 to 20.4 through Temperature_FF_Bath
+2016-02-12 00:27:01.548 [ItemStateChangedEvent     ] - Temperature_FF_Bath changed from NULL to 20.4
+2016-02-12 00:27:01.548 [GroupItemStateChangedEvent] - Status changed from 20.4 to 20.2 through Temperature
+2016-02-12 00:27:01.549 [GroupItemStateChangedEvent] - Temperature changed from 20.4 to 20.2 through Temperature_FF_Office
+2016-02-12 00:27:01.549 [ItemStateChangedEvent     ] - Temperature_FF_Office changed from NULL to 18.9
+2016-02-12 00:27:01.549 [GroupItemStateChangedEvent] - Status changed from 20.2 to 20.1 through Temperature
+2016-02-12 00:27:01.549 [GroupItemStateChangedEvent] - Temperature changed from 20.2 to 20.1 through Temperature_FF_Child
+2016-02-12 00:27:01.550 [ItemStateChangedEvent     ] - Temperature_FF_Child changed from NULL to 19.6
+2016-02-12 00:27:01.550 [GroupItemStateChangedEvent] - Status changed from 20.1 to 19.8 through Temperature
+2016-02-12 00:27:01.550 [GroupItemStateChangedEvent] - Temperature changed from 20.1 to 19.8 through Temperature_FF_Bed
+2016-02-12 00:27:01.550 [ItemStateChangedEvent     ] - Temperature_FF_Bed changed from NULL to 17.9
+2016-02-12 00:27:03.203 [hingStatusInfoChangedEvent] - 'ntp:ntp:demo' changed from INITIALIZING to ONLINE (COMMUNICATION_ERROR): couldn't establish network connection [host 'null'] -> returning current sytem time instead
+2016-02-12 00:27:03.207 [ThingUpdatedEvent         ] - Thing 'ntp:ntp:demo' has been updated.
+2016-02-12 00:27:03.208 [ThingUpdatedEvent         ] - Thing 'yahooweather:weather:berlin' has been updated.
+2016-02-12 00:27:03.208 [ItemStateChangedEvent     ] - CurrentDate changed from NULL to 2016-02-12T00:27:03
+2016-02-12 00:27:03.251 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:27:01 to 2016-02-12T00:27:03
+2016-02-12 00:27:04.213 [ThingUpdatedEvent         ] - Thing 'astro:sun:home' has been updated.
+2016-02-12 00:27:06.229 [ItemStateChangedEvent     ] - Sun_Elevation changed from NULL to -1.39
+2016-02-12 00:27:58.198 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:27:03 to 2016-02-12T00:27:58
+2016-02-12 00:28:03.284 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:27:03 to 2016-02-12T00:28:03
+2016-02-12 00:28:58.199 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:27:58 to 2016-02-12T00:28:58
+2016-02-12 00:29:03.295 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:28:03 to 2016-02-12T00:29:03
+2016-02-12 00:29:58.198 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:28:58 to 2016-02-12T00:29:58
+2016-02-12 00:29:59.463 [ExtensionEvent            ] - ui-classic: java.lang.IllegalArgumentException: Feature named 'openhab-ui-classic/0.0.0' is not installed
+2016-02-12 00:30:00.004 [GroupItemStateChangedEvent] - Status changed from 19.8 to 20.2 through Temperature
+2016-02-12 00:30:00.007 [GroupItemStateChangedEvent] - Temperature changed from 19.8 to 20.2 through Temperature_GF_Corridor
+2016-02-12 00:30:00.010 [ItemStateChangedEvent     ] - Temperature_GF_Corridor changed from 17.9 to 21.1
+2016-02-12 00:30:00.011 [GroupItemStateChangedEvent] - Status changed from 20.2 to 19.7 through Temperature
+2016-02-12 00:30:00.012 [GroupItemStateChangedEvent] - Temperature changed from 20.2 to 19.7 through Temperature_GF_Toilet
+2016-02-12 00:30:00.015 [ItemStateChangedEvent     ] - Temperature_GF_Toilet changed from 22.0 to 18.1
+2016-02-12 00:30:00.017 [GroupItemStateChangedEvent] - Status changed from 19.7 to 20.0 through Temperature
+2016-02-12 00:30:00.017 [GroupItemStateChangedEvent] - Temperature changed from 19.7 to 20.0 through Temperature_GF_Living
+2016-02-12 00:30:00.019 [ItemStateChangedEvent     ] - Temperature_GF_Living changed from 19.5 to 21.5
+2016-02-12 00:30:00.020 [GroupItemStateChangedEvent] - Status changed from 20.0 to 19.4 through Temperature
+2016-02-12 00:30:00.021 [GroupItemStateChangedEvent] - Temperature changed from 20.0 to 19.4 through Temperature_GF_Kitchen
+2016-02-12 00:30:00.023 [ItemStateChangedEvent     ] - Temperature_GF_Kitchen changed from 22.4 to 17.6
+2016-02-12 00:30:00.025 [GroupItemStateChangedEvent] - Status changed from 19.4 to 19.1 through Temperature
+2016-02-12 00:30:00.026 [GroupItemStateChangedEvent] - Temperature changed from 19.4 to 19.1 through Temperature_FF_Bath
+2016-02-12 00:30:00.030 [ItemStateChangedEvent     ] - Temperature_FF_Bath changed from 20.4 to 18.2
+2016-02-12 00:30:00.033 [GroupItemStateChangedEvent] - Status changed from 19.1 to 19.5 through Temperature
+2016-02-12 00:30:00.034 [GroupItemStateChangedEvent] - Temperature changed from 19.1 to 19.5 through Temperature_FF_Office
+2016-02-12 00:30:00.034 [ItemStateChangedEvent     ] - Temperature_FF_Office changed from 18.9 to 21.8
+2016-02-12 00:30:00.035 [GroupItemStateChangedEvent] - Status changed from 19.5 to 19.3 through Temperature
+2016-02-12 00:30:00.035 [GroupItemStateChangedEvent] - Temperature changed from 19.5 to 19.3 through Temperature_FF_Child
+2016-02-12 00:30:00.036 [ItemStateChangedEvent     ] - Temperature_FF_Child changed from 19.6 to 18.4
+2016-02-12 00:30:00.036 [GroupItemStateChangedEvent] - Status changed from 19.3 to 19.8 through Temperature
+2016-02-12 00:30:00.037 [GroupItemStateChangedEvent] - Temperature changed from 19.3 to 19.8 through Temperature_FF_Bed
+2016-02-12 00:30:00.037 [ItemStateChangedEvent     ] - Temperature_FF_Bed changed from 17.9 to 21.5
+2016-02-12 00:30:03.295 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:29:03 to 2016-02-12T00:30:03
+2016-02-12 00:30:58.198 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:29:58 to 2016-02-12T00:30:58
+2016-02-12 00:31:03.283 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:30:03 to 2016-02-12T00:31:03
+2016-02-12 00:31:56.003 [ExtensionEvent            ] - Extension 'misc-myopenhab' has been installed.
+2016-02-12 00:31:58.198 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:30:58 to 2016-02-12T00:31:58
+2016-02-12 00:32:03.288 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:31:03 to 2016-02-12T00:32:03
+2016-02-12 00:32:58.199 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:31:58 to 2016-02-12T00:32:58
+2016-02-12 00:33:03.280 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:32:03 to 2016-02-12T00:33:03
+2016-02-12 00:33:58.198 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:32:58 to 2016-02-12T00:33:58
+2016-02-12 00:34:03.278 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:33:03 to 2016-02-12T00:34:03
+2016-02-12 00:34:58.198 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:33:58 to 2016-02-12T00:34:58
+2016-02-12 00:35:00.002 [GroupItemStateChangedEvent] - Status changed from 19.8 to 19.7 through Temperature
+2016-02-12 00:35:00.005 [GroupItemStateChangedEvent] - Temperature changed from 19.8 to 19.7 through Temperature_GF_Corridor
+2016-02-12 00:35:00.007 [ItemStateChangedEvent     ] - Temperature_GF_Corridor changed from 21.1 to 20.7
+2016-02-12 00:35:00.008 [GroupItemStateChangedEvent] - Status changed from 19.7 to 20.0 through Temperature
+2016-02-12 00:35:00.009 [GroupItemStateChangedEvent] - Temperature changed from 19.7 to 20.0 through Temperature_GF_Toilet
+2016-02-12 00:35:00.010 [ItemStateChangedEvent     ] - Temperature_GF_Toilet changed from 18.1 to 20.1
+2016-02-12 00:35:00.010 [GroupItemStateChangedEvent] - Status changed from 20.0 to 19.9 through Temperature
+2016-02-12 00:35:00.011 [GroupItemStateChangedEvent] - Temperature changed from 20.0 to 19.9 through Temperature_GF_Living
+2016-02-12 00:35:00.011 [ItemStateChangedEvent     ] - Temperature_GF_Living changed from 21.5 to 20.6
+2016-02-12 00:35:00.012 [ItemStateChangedEvent     ] - Temperature_GF_Kitchen changed from 17.6 to 17.8
+2016-02-12 00:35:00.013 [GroupItemStateChangedEvent] - Status changed from 19.9 to 20.2 through Temperature
+2016-02-12 00:35:00.013 [GroupItemStateChangedEvent] - Temperature changed from 19.9 to 20.2 through Temperature_FF_Bath
+2016-02-12 00:35:00.013 [ItemStateChangedEvent     ] - Temperature_FF_Bath changed from 18.2 to 20.7
+2016-02-12 00:35:00.014 [GroupItemStateChangedEvent] - Status changed from 20.2 to 19.8 through Temperature
+2016-02-12 00:35:00.014 [GroupItemStateChangedEvent] - Temperature changed from 20.2 to 19.8 through Temperature_FF_Office
+2016-02-12 00:35:00.014 [ItemStateChangedEvent     ] - Temperature_FF_Office changed from 21.8 to 18.8
+2016-02-12 00:35:00.015 [GroupItemStateChangedEvent] - Status changed from 19.8 to 19.9 through Temperature
+2016-02-12 00:35:00.015 [GroupItemStateChangedEvent] - Status changed from 19.9 to 19.7 through Temperature
+2016-02-12 00:35:00.016 [GroupItemStateChangedEvent] - Temperature changed from 19.8 to 19.9 through Temperature_FF_Child
+2016-02-12 00:35:00.016 [GroupItemStateChangedEvent] - Temperature changed from 19.9 to 19.7 through Temperature_FF_Bed
+2016-02-12 00:35:00.016 [ItemStateChangedEvent     ] - Temperature_FF_Child changed from 18.4 to 19.3
+2016-02-12 00:35:00.017 [ItemStateChangedEvent     ] - Temperature_FF_Bed changed from 21.5 to 19.6
+2016-02-12 00:35:03.305 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:34:03 to 2016-02-12T00:35:03
+2016-02-12 00:35:58.197 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:34:58 to 2016-02-12T00:35:58
+2016-02-12 00:36:03.278 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:35:03 to 2016-02-12T00:36:03
+2016-02-12 00:36:58.198 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:35:58 to 2016-02-12T00:36:58
+2016-02-12 00:37:03.282 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:36:03 to 2016-02-12T00:37:03
+2016-02-12 00:37:58.198 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:36:58 to 2016-02-12T00:37:58
+2016-02-12 00:38:03.273 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:37:03 to 2016-02-12T00:38:03
+2016-02-12 00:38:26.743 [ItemStateChangedEvent     ] - Light_GF_Living_Table changed from 0 to 100
+2016-02-12 00:38:26.753 [ItemStateChangedEvent     ] - Light_GF_Corridor_Wardrobe changed from ON to OFF
+2016-02-12 00:38:26.753 [ItemStateChangedEvent     ] - Light_GF_Toilet_Ceiling changed from OFF to ON
+2016-02-12 00:38:26.754 [ItemStateChangedEvent     ] - Light_GF_Toilet_Mirror changed from OFF to ON
+2016-02-12 00:38:26.754 [ItemStateChangedEvent     ] - Light_FF_Bath_Mirror changed from OFF to ON
+2016-02-12 00:38:26.754 [ItemStateChangedEvent     ] - Light_FF_Office_Ceiling changed from OFF to ON
+2016-02-12 00:38:26.757 [GroupItemStateChangedEvent] - gC changed from UNDEF to OFF through Light_C_Staircase
+2016-02-12 00:38:26.757 [ItemStateChangedEvent     ] - Light_C_Staircase changed from ON to OFF
+2016-02-12 00:38:26.757 [GroupItemStateChangedEvent] - gC changed from OFF to UNDEF through Light_C_Washing_Ceiling
+2016-02-12 00:38:26.757 [ItemStateChangedEvent     ] - Light_C_Washing_Ceiling changed from OFF to ON
+2016-02-12 00:38:26.759 [ItemStateChangedEvent     ] - Light_Garden_Garage changed from OFF to ON
+2016-02-12 00:38:26.771 [ItemStateChangedEvent     ] - Heating_FF_Bath changed from OFF to ON
+2016-02-12 00:38:26.780 [ItemStateChangedEvent     ] - Heating_FF_Office changed from ON to OFF
+2016-02-12 00:38:26.786 [ItemStateChangedEvent     ] - Heating_FF_Child changed from ON to OFF
+2016-02-12 00:38:26.787 [ItemStateChangedEvent     ] - Window_FF_Bath changed from CLOSED to OPEN
+2016-02-12 00:38:26.789 [ItemStateChangedEvent     ] - Window_FF_Office_Door changed from CLOSED to OPEN
+2016-02-12 00:38:26.789 [GroupItemStateChangedEvent] - Status changed from 19.7 to 19.6 through Temperature
+2016-02-12 00:38:26.790 [GroupItemStateChangedEvent] - Temperature changed from 19.7 to 19.6 through Temperature_GF_Corridor
+2016-02-12 00:38:26.790 [ItemStateChangedEvent     ] - Temperature_GF_Corridor changed from 20.7 to 19.9
+2016-02-12 00:38:26.790 [GroupItemStateChangedEvent] - Status changed from 19.6 to 19.4 through Temperature
+2016-02-12 00:38:26.791 [GroupItemStateChangedEvent] - Temperature changed from 19.6 to 19.4 through Temperature_GF_Toilet
+2016-02-12 00:38:26.791 [ItemStateChangedEvent     ] - Temperature_GF_Toilet changed from 20.1 to 18.3
+2016-02-12 00:38:26.791 [GroupItemStateChangedEvent] - Status changed from 19.4 to 19.3 through Temperature
+2016-02-12 00:38:26.791 [GroupItemStateChangedEvent] - Temperature changed from 19.4 to 19.3 through Temperature_GF_Living
+2016-02-12 00:38:26.791 [ItemStateChangedEvent     ] - Temperature_GF_Living changed from 20.6 to 19.9
+2016-02-12 00:38:26.792 [ItemStateChangedEvent     ] - Temperature_GF_Kitchen changed from 17.8 to 18.0
+2016-02-12 00:38:26.792 [ItemStateChangedEvent     ] - Temperature_FF_Bath changed from 20.7 to 20.2
+2016-02-12 00:38:26.793 [GroupItemStateChangedEvent] - Status changed from 19.3 to 19.4 through Temperature
+2016-02-12 00:38:26.793 [GroupItemStateChangedEvent] - Temperature changed from 19.3 to 19.4 through Temperature_FF_Office
+2016-02-12 00:38:26.793 [ItemStateChangedEvent     ] - Temperature_FF_Office changed from 18.8 to 19.8
+2016-02-12 00:38:26.793 [ItemStateChangedEvent     ] - Temperature_FF_Child changed from 19.3 to 19.2
+2016-02-12 00:38:26.795 [GroupItemStateChangedEvent] - Status changed from 19.4 to 19.3 through Temperature
+2016-02-12 00:38:26.795 [GroupItemStateChangedEvent] - Temperature changed from 19.4 to 19.3 through Temperature_FF_Bed
+2016-02-12 00:38:26.795 [ItemStateChangedEvent     ] - Temperature_FF_Bed changed from 19.6 to 19.4
+2016-02-12 00:38:39.410 [ItemStateChangedEvent     ] - Heating_GF_Corridor changed from NULL to OFF
+2016-02-12 00:38:39.413 [ItemStateChangedEvent     ] - Heating_GF_Toilet changed from NULL to OFF
+2016-02-12 00:38:39.418 [ItemStateChangedEvent     ] - Heating_GF_Living changed from NULL to OFF
+2016-02-12 00:38:39.421 [ItemStateChangedEvent     ] - Heating_GF_Kitchen changed from NULL to OFF
+2016-02-12 00:38:39.423 [ItemStateChangedEvent     ] - Heating_FF_Bath changed from NULL to ON
+2016-02-12 00:38:39.426 [ItemStateChangedEvent     ] - Heating_FF_Office changed from NULL to OFF
+2016-02-12 00:38:39.428 [ItemStateChangedEvent     ] - Heating_FF_Child changed from NULL to OFF
+2016-02-12 00:38:39.431 [ItemStateChangedEvent     ] - Heating_FF_Bed changed from NULL to ON
+2016-02-12 00:38:39.434 [ItemStateChangedEvent     ] - Temperature_GF_Corridor changed from NULL to 20.699999999999999289457264239899814128875732421875
+2016-02-12 00:38:39.436 [ItemStateChangedEvent     ] - Temperature_GF_Toilet changed from NULL to 20.10000000000000142108547152020037174224853515625
+2016-02-12 00:38:39.439 [ItemStateChangedEvent     ] - Temperature_GF_Living changed from NULL to 20.60000000000000142108547152020037174224853515625
+2016-02-12 00:38:39.442 [ItemStateChangedEvent     ] - Temperature_GF_Kitchen changed from NULL to 17.800000000000000710542735760100185871124267578125
+2016-02-12 00:38:39.445 [ItemStateChangedEvent     ] - Temperature_FF_Bath changed from NULL to 20.699999999999999289457264239899814128875732421875
+2016-02-12 00:38:39.447 [ItemStateChangedEvent     ] - Temperature_FF_Office changed from NULL to 18.800000000000000710542735760100185871124267578125
+2016-02-12 00:38:39.449 [ItemStateChangedEvent     ] - Temperature_FF_Child changed from NULL to 19.300000000000000710542735760100185871124267578125
+2016-02-12 00:38:39.452 [ItemStateChangedEvent     ] - Temperature_FF_Bed changed from NULL to 19.60000000000000142108547152020037174224853515625
+2016-02-12 00:38:39.454 [ItemStateChangedEvent     ] - Window_GF_Toilet changed from NULL to CLOSED
+2016-02-12 00:38:39.455 [ItemStateChangedEvent     ] - Weather_Temperature changed from NULL to 0
+2016-02-12 00:38:39.457 [ItemStateChangedEvent     ] - Weather_Temp_Max changed from NULL to 0
+2016-02-12 00:38:39.460 [ItemStateChangedEvent     ] - Weather_Temp_Min changed from NULL to 0
+2016-02-12 00:38:39.461 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:37:58 to 2016-02-12T00:38:39
+2016-02-12 00:38:39.464 [ItemStateChangedEvent     ] - DemoSwitch changed from NULL to OFF
+2016-02-12 00:38:39.478 [GroupItemStateChangedEvent] - GF_Corridor changed from NULL to UNDEF through Heating_GF_Corridor
+2016-02-12 00:38:39.478 [GroupItemStateChangedEvent] - Heating changed from NULL to ON through Heating_GF_Corridor
+2016-02-12 00:38:39.478 [ItemStateChangedEvent     ] - Heating_GF_Corridor changed from NULL to OFF
+2016-02-12 00:38:39.478 [GroupItemStateChangedEvent] - GF_Toilet changed from NULL to UNDEF through Heating_GF_Toilet
+2016-02-12 00:38:39.478 [ItemStateChangedEvent     ] - Heating_GF_Toilet changed from NULL to OFF
+2016-02-12 00:38:39.479 [GroupItemStateChangedEvent] - GF_Living changed from NULL to UNDEF through Heating_GF_Living
+2016-02-12 00:38:39.479 [ItemStateChangedEvent     ] - Heating_GF_Living changed from NULL to OFF
+2016-02-12 00:38:39.479 [GroupItemStateChangedEvent] - GF_Kitchen changed from NULL to UNDEF through Heating_GF_Kitchen
+2016-02-12 00:38:39.480 [ItemStateChangedEvent     ] - Heating_GF_Kitchen changed from NULL to OFF
+2016-02-12 00:38:39.480 [GroupItemStateChangedEvent] - FF_Bath changed from NULL to UNDEF through Heating_FF_Bath
+2016-02-12 00:38:39.480 [ItemStateChangedEvent     ] - Heating_FF_Bath changed from NULL to ON
+2016-02-12 00:38:39.482 [GroupItemStateChangedEvent] - FF_Office changed from NULL to UNDEF through Heating_FF_Office
+2016-02-12 00:38:39.482 [ItemStateChangedEvent     ] - Heating_FF_Office changed from NULL to OFF
+2016-02-12 00:38:39.485 [GroupItemStateChangedEvent] - FF_Child changed from NULL to UNDEF through Heating_FF_Child
+2016-02-12 00:38:39.488 [ItemStateChangedEvent     ] - Heating_FF_Child changed from NULL to OFF
+2016-02-12 00:38:39.491 [GroupItemStateChangedEvent] - FF_Bed changed from NULL to UNDEF through Heating_FF_Bed
+2016-02-12 00:38:39.492 [ItemStateChangedEvent     ] - Heating_FF_Bed changed from NULL to ON
+2016-02-12 00:38:39.492 [GroupItemStateChangedEvent] - Temperature changed from NULL to 19.3 through Temperature_GF_Corridor
+2016-02-12 00:38:39.493 [ItemStateChangedEvent     ] - Temperature_GF_Corridor changed from NULL to 20.699999999999999289457264239899814128875732421875
+2016-02-12 00:38:39.493 [ItemStateChangedEvent     ] - Temperature_GF_Toilet changed from NULL to 20.10000000000000142108547152020037174224853515625
+2016-02-12 00:38:39.501 [ItemStateChangedEvent     ] - Temperature_GF_Living changed from NULL to 20.60000000000000142108547152020037174224853515625
+2016-02-12 00:38:39.501 [ItemStateChangedEvent     ] - Temperature_GF_Kitchen changed from NULL to 17.800000000000000710542735760100185871124267578125
+2016-02-12 00:38:39.503 [ItemStateChangedEvent     ] - Temperature_FF_Bath changed from NULL to 20.699999999999999289457264239899814128875732421875
+2016-02-12 00:38:39.504 [ItemStateChangedEvent     ] - Temperature_FF_Office changed from NULL to 18.800000000000000710542735760100185871124267578125
+2016-02-12 00:38:39.504 [ItemStateChangedEvent     ] - Temperature_FF_Child changed from NULL to 19.300000000000000710542735760100185871124267578125
+2016-02-12 00:38:39.504 [ItemStateChangedEvent     ] - Temperature_FF_Bed changed from NULL to 19.60000000000000142108547152020037174224853515625
+2016-02-12 00:38:39.504 [GroupItemStateChangedEvent] - Windows changed from NULL to OPEN through Window_GF_Toilet
+2016-02-12 00:38:39.504 [ItemStateChangedEvent     ] - Window_GF_Toilet changed from NULL to CLOSED
+2016-02-12 00:38:39.504 [GroupItemStateChangedEvent] - Weather changed from NULL to UNDEF through Weather_Temperature
+2016-02-12 00:38:39.504 [GroupItemStateChangedEvent] - Weather_Chart changed from NULL to 0 through Weather_Temperature
+2016-02-12 00:38:39.505 [ItemStateChangedEvent     ] - Weather_Temperature changed from NULL to 0
+2016-02-12 00:38:39.505 [ItemStateChangedEvent     ] - Weather_Temp_Max changed from NULL to 0
+2016-02-12 00:38:39.505 [ItemStateChangedEvent     ] - Weather_Temp_Min changed from NULL to 0
+2016-02-12 00:38:39.506 [ItemStateChangedEvent     ] - CurrentDate changed from NULL to 2016-02-12T00:38:39
+2016-02-12 00:38:39.506 [ItemStateChangedEvent     ] - DemoSwitch changed from NULL to OFF
+2016-02-12 00:38:41.506 [ItemStateChangedEvent     ] - Sun_Elevation changed from NULL to 0.24
+2016-02-12 00:38:58.197 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:38:39 to 2016-02-12T00:38:58
+2016-02-12 00:39:06.020 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from NULL to 2016-02-12T00:39:04
+2016-02-12 00:39:06.020 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:39:04 to 2016-02-12T00:39:06
+2016-02-12 00:39:41.505 [ItemStateChangedEvent     ] - Sun_Elevation changed from 0.24 to 0.38
+2016-02-12 00:39:58.197 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-02-12T00:38:58 to 2016-02-12T00:39:58
+2016-02-12 00:40:00.017 [ItemStateChangedEvent     ] - Temperature_GF_Corridor changed from 20.699999999999999289457264239899814128875732421875 to 19.7
+2016-02-12 00:40:00.017 [ItemStateChangedEvent     ] - Temperature_GF_Toilet changed from 20.10000000000000142108547152020037174224853515625 to 19.0
+2016-02-12 00:40:00.017 [ItemStateChangedEvent     ] - Temperature_GF_Corridor changed from 19.7 to 19.8
+2016-02-12 00:40:00.017 [ItemStateChangedEvent     ] - Temperature_GF_Living changed from 20.60000000000000142108547152020037174224853515625 to 18.2
+2016-02-12 00:40:00.017 [ItemStateChangedEvent     ] - Temperature_GF_Toilet changed from 19.0 to 21.0
+2016-02-12 00:40:00.017 [ItemStateChangedEvent     ] - Temperature_GF_Living changed from 18.2 to 18.8
+2016-02-12 00:40:00.017 [ItemStateChangedEvent     ] - Temperature_GF_Kitchen changed from 17.800000000000000710542735760100185871124267578125 to 21.7
+2016-02-12 00:40:00.017 [ItemStateChangedEvent     ] - Temperature_FF_Bath changed from 20.699999999999999289457264239899814128875732421875 to 20.1
+2016-02-12 00:40:00.017 [ItemStateChangedEvent     ] - Temperature_GF_Kitchen changed from 21.7 to 18.6
+2016-02-12 00:40:00.017 [ItemStateChangedEvent     ] - Temperature_FF_Bath changed from 20.1 to 22.2
+2016-02-12 00:40:00.017 [ItemStateChangedEvent     ] - Temperature_FF_Office changed from 18.800000000000000710542735760100185871124267578125 to 21.4
+2016-02-12 00:40:00.018 [ItemStateChangedEvent     ] - Temperature_FF_Child changed from 19.300000000000000710542735760100185871124267578125 to 18.6
+2016-02-12 00:40:00.018 [ItemStateChangedEvent     ] - Temperature_FF_Office changed from 21.4 to 18.2
+2016-02-12 00:40:00.018 [ItemStateChangedEvent     ] - Temperature_FF_Child changed from 18.6 to 18.1
+2016-02-12 00:40:00.018 [ItemStateChangedEvent     ] - Temperature_FF_Bed changed from 19.60000000000000142108547152020037174224853515625 to 22.1
+2016-02-12 00:40:00.018 [ItemStateChangedEvent     ] - Temperature_FF_Bed changed from 22.1 to 20.9
+2016-02-12 00:40:03.282 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-02-12T00:39:06 to 2016-02-12T00:40:03

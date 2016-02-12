@@ -1,0 +1,943 @@
+2016-02-12 00:26:40.811 [INFO ] [.openhab.core.internal.CoreActivator] - openHAB runtime has been started (v2.0.0, build b2).
+2016-02-12 00:26:54.461 [ERROR] [core.karaf.internal.FeatureInstaller] - Failed installing 'openhab-package-demo': Module has been uninstalled.
+2016-02-12 00:26:55.098 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2016-02-12 00:26:55.228 [INFO ] [home.event.ItemChannelLinkAddedEvent] - Link 'Weather_Temperature-yahooweather:weather:berlin:temperature' has been added.
+2016-02-12 00:26:55.236 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2016-02-12 00:26:55.295 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'demo.sitemap'
+2016-02-12 00:26:55.300 [INFO ] [home.event.ItemChannelLinkAddedEvent] - Link 'Sun_Elevation-astro:sun:home:position#elevation' has been added.
+2016-02-12 00:26:55.305 [INFO ] [home.event.ItemChannelLinkAddedEvent] - Link 'CurrentDate-ntp:ntp:demo:dateTime' has been added.
+2016-02-12 00:26:55.310 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'demo.things'
+2016-02-12 00:26:55.323 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'demo.things'
+2016-02-12 00:26:55.328 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'demo.rules'
+2016-02-12 00:26:55.355 [INFO ] [.openhab.core.internal.CoreActivator] - openHAB runtime has been terminated.
+2016-02-12 00:26:55.577 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'demo.rules'
+2016-02-12 00:26:55.626 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2016-02-12 00:26:55.692 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'demo.script'
+2016-02-12 00:26:55.701 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2016-02-12 00:26:55.710 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'logging.persist'
+2016-02-12 00:26:55.713 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2016-02-12 00:26:55.716 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'rrd4j.persist'
+2016-02-12 00:26:55.719 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'demo.items'
+2016-02-12 00:26:55.901 [INFO ] [.openhab.core.internal.CoreActivator] - openHAB runtime has been started (v2.0.0, build b2).
+2016-02-12 00:26:58.193 [INFO ] [smarthome.event.ThingAddedEvent     ] - Thing 'ntp:ntp:demo' has been added.
+2016-02-12 00:26:58.194 [INFO ] [me.event.ThingStatusInfoChangedEvent] - 'ntp:ntp:demo' changed from UNINITIALIZED to INITIALIZING
+2016-02-12 00:26:58.225 [INFO ] [.dashboard.internal.DashboardService] - Started dashboard at /start
+2016-02-12 00:26:58.249 [INFO ] [smarthome.event.ThingAddedEvent     ] - Thing 'yahooweather:weather:berlin' has been added.
+2016-02-12 00:26:58.251 [INFO ] [me.event.ThingStatusInfoChangedEvent] - 'yahooweather:weather:berlin' changed from UNINITIALIZED to INITIALIZING
+2016-02-12 00:26:58.252 [INFO ] [me.event.ThingStatusInfoChangedEvent] - 'yahooweather:weather:berlin' changed from INITIALIZING to ONLINE
+2016-02-12 00:26:58.287 [INFO ] [assic.internal.servlet.WebAppServlet] - Started Classic UI at /classicui/app
+2016-02-12 00:26:58.379 [INFO ] [ome.event.GroupItemStateChangedEvent] - Weather changed from NULL to UNDEF through Weather_Temperature
+2016-02-12 00:26:58.379 [INFO ] [ome.event.GroupItemStateChangedEvent] - Weather_Chart changed from NULL to UNDEF through Weather_Temperature
+2016-02-12 00:26:59.211 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'ntp:ntp:local' to inbox.
+2016-02-12 00:26:59.213 [INFO ] [smarthome.event.InboxAddedEvent     ] - Discovery Result with UID 'ntp:ntp:local' has been added.
+2016-02-12 00:27:01.226 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_Temperature changed from NULL to 0
+2016-02-12 00:27:01.284 [INFO ] [ome.event.GroupItemStateChangedEvent] - gGF changed from NULL to UNDEF through GF_Living
+2016-02-12 00:27:01.290 [INFO ] [ome.event.GroupItemStateChangedEvent] - GF_Living changed from NULL to UNDEF through Light_GF_Living_Table
+2016-02-12 00:27:01.296 [INFO ] [ome.event.GroupItemStateChangedEvent] - Lights changed from NULL to OFF through Light_GF_Living_Table
+2016-02-12 00:27:01.302 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_GF_Living_Table changed from NULL to 0
+2016-02-12 00:27:01.304 [INFO ] [ome.event.GroupItemStateChangedEvent] - GF_Corridor changed from NULL to UNDEF through Light_GF_Corridor_Ceiling
+2016-02-12 00:27:01.304 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_GF_Corridor_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.306 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_GF_Kitchen_Table changed from NULL to OFF
+2016-02-12 00:27:01.308 [INFO ] [ome.event.GroupItemStateChangedEvent] - Lights changed from OFF to ON through Light_GF_Corridor_Wardrobe
+2016-02-12 00:27:01.309 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_GF_Corridor_Wardrobe changed from NULL to ON
+2016-02-12 00:27:01.309 [INFO ] [ome.event.GroupItemStateChangedEvent] - GF_Toilet changed from NULL to UNDEF through Light_GF_Toilet_Ceiling
+2016-02-12 00:27:01.310 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_GF_Toilet_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.310 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_GF_Toilet_Mirror changed from NULL to OFF
+2016-02-12 00:27:01.311 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from NULL to 2016-02-12T00:27:01
+2016-02-12 00:27:01.312 [INFO ] [ome.event.GroupItemStateChangedEvent] - GF_Kitchen changed from NULL to UNDEF through Light_GF_Kitchen_Ceiling
+2016-02-12 00:27:01.312 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_GF_Kitchen_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.313 [INFO ] [ome.event.GroupItemStateChangedEvent] - gFF changed from NULL to UNDEF through FF_Bath
+2016-02-12 00:27:01.313 [INFO ] [ome.event.GroupItemStateChangedEvent] - FF_Bath changed from NULL to UNDEF through Light_FF_Bath_Ceiling
+2016-02-12 00:27:01.314 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_FF_Bath_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.314 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_FF_Bath_Mirror changed from NULL to OFF
+2016-02-12 00:27:01.314 [INFO ] [ome.event.GroupItemStateChangedEvent] - FF_Corridor changed from NULL to OFF through Light_FF_Corridor_Ceiling
+2016-02-12 00:27:01.315 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_FF_Corridor_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.316 [INFO ] [ome.event.GroupItemStateChangedEvent] - FF_Office changed from NULL to UNDEF through Light_FF_Office_Ceiling
+2016-02-12 00:27:01.316 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_FF_Office_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.316 [INFO ] [ome.event.GroupItemStateChangedEvent] - FF_Child changed from NULL to UNDEF through Light_FF_Child_Ceiling
+2016-02-12 00:27:01.317 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_FF_Child_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.318 [INFO ] [ome.event.GroupItemStateChangedEvent] - FF_Bed changed from NULL to UNDEF through Light_FF_Bed_Ceiling
+2016-02-12 00:27:01.318 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_FF_Bed_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.319 [INFO ] [ome.event.GroupItemStateChangedEvent] - gC changed from NULL to UNDEF through Light_C_Corridor_Ceiling
+2016-02-12 00:27:01.320 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_C_Corridor_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.320 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_C_Staircase changed from NULL to ON
+2016-02-12 00:27:01.320 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_C_Washing_Ceiling changed from NULL to OFF
+2016-02-12 00:27:01.322 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_C_Workshop changed from NULL to OFF
+2016-02-12 00:27:01.322 [INFO ] [ome.event.GroupItemStateChangedEvent] - Garden changed from NULL to UNDEF through Light_Garden_Garage
+2016-02-12 00:27:01.322 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_Garden_Garage changed from NULL to OFF
+2016-02-12 00:27:01.324 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_Garden_Terrace changed from NULL to OFF
+2016-02-12 00:27:01.324 [INFO ] [ome.event.GroupItemStateChangedEvent] - Heating changed from NULL to OFF through Heating_GF_Corridor
+2016-02-12 00:27:01.390 [INFO ] [basic.internal.servlet.WebAppServlet] - Started Basic UI at /basicui/app
+2016-02-12 00:27:01.426 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_GF_Corridor changed from NULL to OFF
+2016-02-12 00:27:01.447 [INFO ] [smarthome.event.ThingAddedEvent     ] - Thing 'astro:sun:home' has been added.
+2016-02-12 00:27:01.447 [INFO ] [me.event.ThingStatusInfoChangedEvent] - 'astro:sun:home' changed from UNINITIALIZED to INITIALIZING
+2016-02-12 00:27:01.447 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_GF_Toilet changed from NULL to OFF
+2016-02-12 00:27:01.448 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_Temp_Max changed from NULL to 0
+2016-02-12 00:27:01.454 [INFO ] [me.event.ThingStatusInfoChangedEvent] - 'astro:sun:home' changed from INITIALIZING to ONLINE
+2016-02-12 00:27:01.459 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Started Paper UI at /ui
+2016-02-12 00:27:01.463 [INFO ] [core.karaf.internal.FeatureInstaller] - Installed 'openhab-package-demo'
+2016-02-12 00:27:01.464 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_GF_Living changed from NULL to OFF
+2016-02-12 00:27:01.473 [INFO ] [ome.event.GroupItemStateChangedEvent] - Weather_Chart changed from UNDEF to 0 through Weather_Temp_Min
+2016-02-12 00:27:01.474 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_Temp_Min changed from NULL to 0
+2016-02-12 00:27:01.495 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_GF_Kitchen changed from NULL to OFF
+2016-02-12 00:27:01.508 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Bath changed from NULL to OFF
+2016-02-12 00:27:01.508 [INFO ] [ome.event.GroupItemStateChangedEvent] - Heating changed from OFF to ON through Heating_FF_Office
+2016-02-12 00:27:01.515 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Office changed from NULL to ON
+2016-02-12 00:27:01.525 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Child changed from NULL to ON
+2016-02-12 00:27:01.529 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Bed changed from NULL to ON
+2016-02-12 00:27:01.529 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_Setpoint changed from NULL to 22
+2016-02-12 00:27:01.530 [INFO ] [ome.event.GroupItemStateChangedEvent] - Windows changed from NULL to OPEN through Window_GF_Frontdoor
+2016-02-12 00:27:01.530 [INFO ] [marthome.event.ItemStateChangedEvent] - Window_GF_Frontdoor changed from NULL to OPEN
+2016-02-12 00:27:01.530 [INFO ] [marthome.event.ItemStateChangedEvent] - Window_GF_Kitchen changed from NULL to CLOSED
+2016-02-12 00:27:01.530 [INFO ] [marthome.event.ItemStateChangedEvent] - Window_GF_Living changed from NULL to OPEN
+2016-02-12 00:27:01.540 [INFO ] [marthome.event.ItemStateChangedEvent] - Window_GF_Toilet changed from NULL to CLOSED
+2016-02-12 00:27:01.540 [INFO ] [marthome.event.ItemStateChangedEvent] - Window_FF_Bath changed from NULL to CLOSED
+2016-02-12 00:27:01.540 [INFO ] [marthome.event.ItemStateChangedEvent] - Window_FF_Bed changed from NULL to OPEN
+2016-02-12 00:27:01.540 [INFO ] [marthome.event.ItemStateChangedEvent] - Window_FF_Office_Window changed from NULL to CLOSED
+2016-02-12 00:27:01.541 [INFO ] [marthome.event.ItemStateChangedEvent] - Window_FF_Office_Door changed from NULL to CLOSED
+2016-02-12 00:27:01.541 [INFO ] [marthome.event.ItemStateChangedEvent] - Garage_Door changed from NULL to OPEN
+2016-02-12 00:27:01.542 [INFO ] [marthome.event.ItemStateChangedEvent] - DemoLocation changed from NULL to 52.5200066,13.4049540
+2016-02-12 00:27:01.544 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from NULL to 17.9 through Temperature
+2016-02-12 00:27:01.545 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from NULL to 17.9 through Temperature_GF_Corridor
+2016-02-12 00:27:01.545 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Corridor changed from NULL to 17.9
+2016-02-12 00:27:01.545 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 17.9 to 20.0 through Temperature
+2016-02-12 00:27:01.545 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 17.9 to 20.0 through Temperature_GF_Toilet
+2016-02-12 00:27:01.546 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Toilet changed from NULL to 22.0
+2016-02-12 00:27:01.546 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 20.0 to 19.8 through Temperature
+2016-02-12 00:27:01.546 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 20.0 to 19.8 through Temperature_GF_Living
+2016-02-12 00:27:01.546 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Living changed from NULL to 19.5
+2016-02-12 00:27:01.547 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.8 to 20.5 through Temperature
+2016-02-12 00:27:01.547 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.8 to 20.5 through Temperature_GF_Kitchen
+2016-02-12 00:27:01.547 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Kitchen changed from NULL to 22.4
+2016-02-12 00:27:01.548 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 20.5 to 20.4 through Temperature
+2016-02-12 00:27:01.548 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 20.5 to 20.4 through Temperature_FF_Bath
+2016-02-12 00:27:01.548 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bath changed from NULL to 20.4
+2016-02-12 00:27:01.548 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 20.4 to 20.2 through Temperature
+2016-02-12 00:27:01.549 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 20.4 to 20.2 through Temperature_FF_Office
+2016-02-12 00:27:01.549 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Office changed from NULL to 18.9
+2016-02-12 00:27:01.549 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 20.2 to 20.1 through Temperature
+2016-02-12 00:27:01.549 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 20.2 to 20.1 through Temperature_FF_Child
+2016-02-12 00:27:01.550 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Child changed from NULL to 19.6
+2016-02-12 00:27:01.550 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 20.1 to 19.8 through Temperature
+2016-02-12 00:27:01.550 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 20.1 to 19.8 through Temperature_FF_Bed
+2016-02-12 00:27:01.550 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bed changed from NULL to 17.9
+2016-02-12 00:27:03.203 [WARN ] [thome.binding.ntp.handler.NtpHandler] - couldn't establish network connection [host 'null'] -> returning current sytem time instead
+2016-02-12 00:27:03.203 [INFO ] [me.event.ThingStatusInfoChangedEvent] - 'ntp:ntp:demo' changed from INITIALIZING to ONLINE (COMMUNICATION_ERROR): couldn't establish network connection [host 'null'] -> returning current sytem time instead
+2016-02-12 00:27:03.207 [INFO ] [smarthome.event.ThingUpdatedEvent   ] - Thing 'ntp:ntp:demo' has been updated.
+2016-02-12 00:27:03.208 [INFO ] [smarthome.event.ThingUpdatedEvent   ] - Thing 'yahooweather:weather:berlin' has been updated.
+2016-02-12 00:27:03.208 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from NULL to 2016-02-12T00:27:03
+2016-02-12 00:27:03.251 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:27:01 to 2016-02-12T00:27:03
+2016-02-12 00:27:04.213 [INFO ] [smarthome.event.ThingUpdatedEvent   ] - Thing 'astro:sun:home' has been updated.
+2016-02-12 00:27:06.213 [INFO ] [ding.astro.handler.AstroThingHandler] - Scheduled astro DailyJob at midnight for thing astro:sun:home
+2016-02-12 00:27:06.229 [INFO ] [marthome.event.ItemStateChangedEvent] - Sun_Elevation changed from NULL to -1.39
+2016-02-12 00:27:07.905 [WARN ] [ternal.render.AbstractWidgetRenderer] - Cannot escape path '2016-02-12T00:27:03' in URL. Returning unmodified path.
+2016-02-12 00:27:58.198 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:27:03 to 2016-02-12T00:27:58
+2016-02-12 00:28:03.284 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:27:03 to 2016-02-12T00:28:03
+2016-02-12 00:28:18.946 [INFO ] [assic.internal.servlet.WebAppServlet] - Stopped Classic UI
+2016-02-12 00:28:18.951 [ERROR] [org.eclipse.smarthome.ui.classic    ] - [org.eclipse.smarthome.classicui(162)] The activate method has thrown an exception
+java.lang.IllegalStateException: Multiple servlets map to path: /classicui/app/*: org.ops4j.pax.web.service.spi.model.ServletModel-33,org.ops4j.pax.web.service.spi.model.ServletModel-22
+	at org.eclipse.jetty.servlet.ServletHandler.updateMappings(ServletHandler.java:1488)
+	at org.eclipse.jetty.servlet.ServletHandler.setServletMappings(ServletHandler.java:1585)
+	at org.eclipse.jetty.servlet.ServletHandler.addServletMapping(ServletHandler.java:1023)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:334)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:329)
+	at org.ops4j.pax.swissbox.core.ContextClassLoaderUtils.doWithClassLoader(ContextClassLoaderUtils.java:60)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl.addServlet(JettyServerImpl.java:328)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl$Started.addServlet(ServerControllerImpl.java:290)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl.addServlet(ServerControllerImpl.java:110)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:211)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:190)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:175)
+	at org.ops4j.pax.web.service.internal.HttpServiceProxy.registerServlet(HttpServiceProxy.java:64)
+	at org.eclipse.smarthome.ui.classic.internal.servlet.WebAppServlet.activate(WebAppServlet.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source)[:1.8.0_73]
+	at org.apache.felix.scr.impl.helper.BaseMethod.invokeMethod(BaseMethod.java:222)
+	at org.apache.felix.scr.impl.helper.BaseMethod.access$500(BaseMethod.java:37)
+	at org.apache.felix.scr.impl.helper.BaseMethod$Resolved.invoke(BaseMethod.java:615)
+	at org.apache.felix.scr.impl.helper.BaseMethod.invoke(BaseMethod.java:499)
+	at org.apache.felix.scr.impl.helper.ActivateMethod.invoke(ActivateMethod.java:295)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:302)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:113)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:866)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:833)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:774)[28:org.apache.felix.scr:2.0.2]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:212)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at java.security.AccessController.doPrivileged(Native Method)[:1.8.0_73]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:210)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:111)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:45)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:496)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:461)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:619)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at com.eclipsesource.jaxrs.publisher.internal.ResourceTracker.addingService(ResourceTracker.java:39)[12:com.eclipsesource.jaxrs.publisher:5.3.0.201512270850]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:941)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:870)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:901)[org.osgi.core-6.0.0.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:914)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:862)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:801)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:127)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:225)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:464)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:869)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:857)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:915)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:715)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:627)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:566)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurableComponentHolder.configurationDeleted(ConfigurableComponentHolder.java:323)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurationSupport.configurationEvent(ConfigurationSupport.java:280)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.sendEvent(ConfigurationManager.java:2046)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.run(ConfigurationManager.java:2014)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run0(UpdateThread.java:143)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run(UpdateThread.java:110)[7:org.apache.felix.configadmin:1.8.8]
+	at java.lang.Thread.run(Unknown Source)[:1.8.0_73]
+2016-02-12 00:28:18.962 [ERROR] [org.eclipse.smarthome.ui.classic    ] - [org.eclipse.smarthome.classicui(162)] Failed creating the component instance; see log for reason
+2016-02-12 00:28:18.964 [ERROR] [org.eclipse.smarthome.ui.classic    ] - [org.eclipse.smarthome.classicui(162)] The activate method has thrown an exception
+java.lang.IllegalStateException: Multiple servlets map to path: /classicui/app/*: org.ops4j.pax.web.service.spi.model.ServletModel-34,org.ops4j.pax.web.service.spi.model.ServletModel-33
+	at org.eclipse.jetty.servlet.ServletHandler.updateMappings(ServletHandler.java:1488)
+	at org.eclipse.jetty.servlet.ServletHandler.setServletMappings(ServletHandler.java:1585)
+	at org.eclipse.jetty.servlet.ServletHandler.addServletMapping(ServletHandler.java:1023)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:334)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:329)
+	at org.ops4j.pax.swissbox.core.ContextClassLoaderUtils.doWithClassLoader(ContextClassLoaderUtils.java:60)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl.addServlet(JettyServerImpl.java:328)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl$Started.addServlet(ServerControllerImpl.java:290)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl.addServlet(ServerControllerImpl.java:110)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:211)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:190)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:175)
+	at org.ops4j.pax.web.service.internal.HttpServiceProxy.registerServlet(HttpServiceProxy.java:64)
+	at org.eclipse.smarthome.ui.classic.internal.servlet.WebAppServlet.activate(WebAppServlet.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source)[:1.8.0_73]
+	at org.apache.felix.scr.impl.helper.BaseMethod.invokeMethod(BaseMethod.java:222)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.helper.BaseMethod.access$500(BaseMethod.java:37)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.helper.BaseMethod$Resolved.invoke(BaseMethod.java:615)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.helper.BaseMethod.invoke(BaseMethod.java:499)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.helper.ActivateMethod.invoke(ActivateMethod.java:295)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:302)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:113)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:866)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:833)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:724)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:627)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:566)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurableComponentHolder.configurationDeleted(ConfigurableComponentHolder.java:323)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurationSupport.configurationEvent(ConfigurationSupport.java:280)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.sendEvent(ConfigurationManager.java:2046)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.run(ConfigurationManager.java:2014)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run0(UpdateThread.java:143)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run(UpdateThread.java:110)[7:org.apache.felix.configadmin:1.8.8]
+	at java.lang.Thread.run(Unknown Source)[:1.8.0_73]
+2016-02-12 00:28:18.968 [ERROR] [org.eclipse.smarthome.ui.classic    ] - [org.eclipse.smarthome.classicui(162)] Failed creating the component instance; see log for reason
+2016-02-12 00:28:28.123 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI
+2016-02-12 00:28:28.128 [ERROR] [org.eclipse.smarthome.ui.basic      ] - [org.eclipse.smarthome.basicui(193)] The activate method has thrown an exception
+java.lang.IllegalStateException: Multiple servlets map to path: /basicui/app/*: org.ops4j.pax.web.service.spi.model.ServletModel-35,org.ops4j.pax.web.service.spi.model.ServletModel-28
+	at org.eclipse.jetty.servlet.ServletHandler.updateMappings(ServletHandler.java:1488)
+	at org.eclipse.jetty.servlet.ServletHandler.setServletMappings(ServletHandler.java:1585)
+	at org.eclipse.jetty.servlet.ServletHandler.addServletMapping(ServletHandler.java:1023)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:334)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:329)
+	at org.ops4j.pax.swissbox.core.ContextClassLoaderUtils.doWithClassLoader(ContextClassLoaderUtils.java:60)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl.addServlet(JettyServerImpl.java:328)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl$Started.addServlet(ServerControllerImpl.java:290)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl.addServlet(ServerControllerImpl.java:110)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:211)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:190)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:175)
+	at org.ops4j.pax.web.service.internal.HttpServiceProxy.registerServlet(HttpServiceProxy.java:64)
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.activate(WebAppServlet.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source)[:1.8.0_73]
+	at org.apache.felix.scr.impl.helper.BaseMethod.invokeMethod(BaseMethod.java:222)
+	at org.apache.felix.scr.impl.helper.BaseMethod.access$500(BaseMethod.java:37)
+	at org.apache.felix.scr.impl.helper.BaseMethod$Resolved.invoke(BaseMethod.java:615)
+	at org.apache.felix.scr.impl.helper.BaseMethod.invoke(BaseMethod.java:499)
+	at org.apache.felix.scr.impl.helper.ActivateMethod.invoke(ActivateMethod.java:295)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:302)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:113)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:866)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:833)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:774)[28:org.apache.felix.scr:2.0.2]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:212)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at java.security.AccessController.doPrivileged(Native Method)[:1.8.0_73]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:210)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:111)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:45)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:496)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:461)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:619)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at com.eclipsesource.jaxrs.publisher.internal.ResourceTracker.addingService(ResourceTracker.java:39)[12:com.eclipsesource.jaxrs.publisher:5.3.0.201512270850]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:941)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:870)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:901)[org.osgi.core-6.0.0.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:914)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:862)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:801)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:127)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:225)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:464)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:869)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:857)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:915)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:715)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:627)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:566)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurableComponentHolder.configurationDeleted(ConfigurableComponentHolder.java:323)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurationSupport.configurationEvent(ConfigurationSupport.java:280)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.sendEvent(ConfigurationManager.java:2046)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.run(ConfigurationManager.java:2014)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run0(UpdateThread.java:143)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run(UpdateThread.java:110)[7:org.apache.felix.configadmin:1.8.8]
+	at java.lang.Thread.run(Unknown Source)[:1.8.0_73]
+2016-02-12 00:28:28.137 [ERROR] [org.eclipse.smarthome.ui.basic      ] - [org.eclipse.smarthome.basicui(193)] Failed creating the component instance; see log for reason
+2016-02-12 00:28:28.138 [ERROR] [org.eclipse.smarthome.ui.basic      ] - [org.eclipse.smarthome.basicui(193)] The activate method has thrown an exception
+java.lang.IllegalStateException: Multiple servlets map to path: /basicui/app/*: org.ops4j.pax.web.service.spi.model.ServletModel-35,org.ops4j.pax.web.service.spi.model.ServletModel-36
+	at org.eclipse.jetty.servlet.ServletHandler.updateMappings(ServletHandler.java:1488)
+	at org.eclipse.jetty.servlet.ServletHandler.setServletMappings(ServletHandler.java:1585)
+	at org.eclipse.jetty.servlet.ServletHandler.addServletMapping(ServletHandler.java:1023)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:334)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:329)
+	at org.ops4j.pax.swissbox.core.ContextClassLoaderUtils.doWithClassLoader(ContextClassLoaderUtils.java:60)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl.addServlet(JettyServerImpl.java:328)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl$Started.addServlet(ServerControllerImpl.java:290)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl.addServlet(ServerControllerImpl.java:110)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:211)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:190)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:175)
+	at org.ops4j.pax.web.service.internal.HttpServiceProxy.registerServlet(HttpServiceProxy.java:64)
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.activate(WebAppServlet.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source)[:1.8.0_73]
+	at org.apache.felix.scr.impl.helper.BaseMethod.invokeMethod(BaseMethod.java:222)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.helper.BaseMethod.access$500(BaseMethod.java:37)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.helper.BaseMethod$Resolved.invoke(BaseMethod.java:615)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.helper.BaseMethod.invoke(BaseMethod.java:499)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.helper.ActivateMethod.invoke(ActivateMethod.java:295)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:302)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:113)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:866)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:833)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:724)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:627)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:566)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurableComponentHolder.configurationDeleted(ConfigurableComponentHolder.java:323)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurationSupport.configurationEvent(ConfigurationSupport.java:280)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.sendEvent(ConfigurationManager.java:2046)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.run(ConfigurationManager.java:2014)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run0(UpdateThread.java:143)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run(UpdateThread.java:110)[7:org.apache.felix.configadmin:1.8.8]
+	at java.lang.Thread.run(Unknown Source)[:1.8.0_73]
+2016-02-12 00:28:28.142 [ERROR] [org.eclipse.smarthome.ui.basic      ] - [org.eclipse.smarthome.basicui(193)] Failed creating the component instance; see log for reason
+2016-02-12 00:28:58.199 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:27:58 to 2016-02-12T00:28:58
+2016-02-12 00:29:03.295 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:28:03 to 2016-02-12T00:29:03
+2016-02-12 00:29:58.198 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:28:58 to 2016-02-12T00:29:58
+2016-02-12 00:29:59.462 [ERROR] [st.core.extensions.ExtensionResource] - Exception while uninstalling extension: java.lang.IllegalArgumentException: Feature named 'openhab-ui-classic/0.0.0' is not installed
+2016-02-12 00:29:59.463 [INFO ] [smarthome.event.ExtensionEvent      ] - ui-classic: java.lang.IllegalArgumentException: Feature named 'openhab-ui-classic/0.0.0' is not installed
+2016-02-12 00:30:00.004 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.8 to 20.2 through Temperature
+2016-02-12 00:30:00.007 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.8 to 20.2 through Temperature_GF_Corridor
+2016-02-12 00:30:00.010 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Corridor changed from 17.9 to 21.1
+2016-02-12 00:30:00.011 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 20.2 to 19.7 through Temperature
+2016-02-12 00:30:00.012 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 20.2 to 19.7 through Temperature_GF_Toilet
+2016-02-12 00:30:00.015 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Toilet changed from 22.0 to 18.1
+2016-02-12 00:30:00.017 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.7 to 20.0 through Temperature
+2016-02-12 00:30:00.017 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.7 to 20.0 through Temperature_GF_Living
+2016-02-12 00:30:00.019 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Living changed from 19.5 to 21.5
+2016-02-12 00:30:00.020 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 20.0 to 19.4 through Temperature
+2016-02-12 00:30:00.021 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 20.0 to 19.4 through Temperature_GF_Kitchen
+2016-02-12 00:30:00.023 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Kitchen changed from 22.4 to 17.6
+2016-02-12 00:30:00.025 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.4 to 19.1 through Temperature
+2016-02-12 00:30:00.026 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.4 to 19.1 through Temperature_FF_Bath
+2016-02-12 00:30:00.030 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bath changed from 20.4 to 18.2
+2016-02-12 00:30:00.033 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.1 to 19.5 through Temperature
+2016-02-12 00:30:00.034 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.1 to 19.5 through Temperature_FF_Office
+2016-02-12 00:30:00.034 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Office changed from 18.9 to 21.8
+2016-02-12 00:30:00.035 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.5 to 19.3 through Temperature
+2016-02-12 00:30:00.035 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.5 to 19.3 through Temperature_FF_Child
+2016-02-12 00:30:00.036 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Child changed from 19.6 to 18.4
+2016-02-12 00:30:00.036 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.3 to 19.8 through Temperature
+2016-02-12 00:30:00.037 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.3 to 19.8 through Temperature_FF_Bed
+2016-02-12 00:30:00.037 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bed changed from 17.9 to 21.5
+2016-02-12 00:30:03.295 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:29:03 to 2016-02-12T00:30:03
+2016-02-12 00:30:58.198 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:29:58 to 2016-02-12T00:30:58
+2016-02-12 00:31:03.283 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:30:03 to 2016-02-12T00:31:03
+2016-02-12 00:31:56.003 [INFO ] [smarthome.event.ExtensionEvent      ] - Extension 'misc-myopenhab' has been installed.
+2016-02-12 00:31:57.226 [ERROR] [o.myopenhab.internal.MyOpenHABClient] - Socket.IO error: not authorized
+2016-02-12 00:31:58.198 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:30:58 to 2016-02-12T00:31:58
+2016-02-12 00:32:03.288 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:31:03 to 2016-02-12T00:32:03
+2016-02-12 00:32:58.199 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:31:58 to 2016-02-12T00:32:58
+2016-02-12 00:33:03.280 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:32:03 to 2016-02-12T00:33:03
+2016-02-12 00:33:58.198 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:32:58 to 2016-02-12T00:33:58
+2016-02-12 00:34:03.278 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:33:03 to 2016-02-12T00:34:03
+2016-02-12 00:34:23.319 [ERROR] [org.eclipse.smarthome.ui.basic      ] - [org.eclipse.smarthome.basicui(193)] The activate method has thrown an exception
+java.lang.IllegalStateException: Multiple servlets map to path: /basicui/app/*: org.ops4j.pax.web.service.spi.model.ServletModel-35,org.ops4j.pax.web.service.spi.model.ServletModel-36
+	at org.eclipse.jetty.servlet.ServletHandler.updateMappings(ServletHandler.java:1488)
+	at org.eclipse.jetty.servlet.ServletHandler.setServletMappings(ServletHandler.java:1585)
+	at org.eclipse.jetty.servlet.ServletHandler.addServletMapping(ServletHandler.java:1023)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:334)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:329)
+	at org.ops4j.pax.swissbox.core.ContextClassLoaderUtils.doWithClassLoader(ContextClassLoaderUtils.java:60)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl.addServlet(JettyServerImpl.java:328)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl$Started.addServlet(ServerControllerImpl.java:290)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl.addServlet(ServerControllerImpl.java:110)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:211)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:190)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:175)
+	at org.ops4j.pax.web.service.internal.HttpServiceProxy.registerServlet(HttpServiceProxy.java:64)
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.activate(WebAppServlet.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source)[:1.8.0_73]
+	at org.apache.felix.scr.impl.helper.BaseMethod.invokeMethod(BaseMethod.java:222)
+	at org.apache.felix.scr.impl.helper.BaseMethod.access$500(BaseMethod.java:37)
+	at org.apache.felix.scr.impl.helper.BaseMethod$Resolved.invoke(BaseMethod.java:615)
+	at org.apache.felix.scr.impl.helper.BaseMethod.invoke(BaseMethod.java:499)
+	at org.apache.felix.scr.impl.helper.ActivateMethod.invoke(ActivateMethod.java:295)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:302)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:113)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:866)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:833)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:774)[28:org.apache.felix.scr:2.0.2]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:212)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at java.security.AccessController.doPrivileged(Native Method)[:1.8.0_73]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:210)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:111)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:45)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:496)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:461)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:619)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at com.eclipsesource.jaxrs.publisher.internal.ResourceTracker.addingService(ResourceTracker.java:39)[12:com.eclipsesource.jaxrs.publisher:5.3.0.201512270850]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:941)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:870)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:901)[org.osgi.core-6.0.0.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:914)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:862)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:801)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.setProperties(ServiceRegistrationImpl.java:168)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.updateServiceRegistration(SingleComponentManager.java:522)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.modify(SingleComponentManager.java:712)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:602)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:566)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurableComponentHolder.configurationUpdated(ConfigurableComponentHolder.java:419)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurationSupport.configurationEvent(ConfigurationSupport.java:315)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.sendEvent(ConfigurationManager.java:2046)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.run(ConfigurationManager.java:2014)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run0(UpdateThread.java:143)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run(UpdateThread.java:110)[7:org.apache.felix.configadmin:1.8.8]
+	at java.lang.Thread.run(Unknown Source)[:1.8.0_73]
+2016-02-12 00:34:23.328 [ERROR] [org.eclipse.smarthome.ui.basic      ] - [org.eclipse.smarthome.basicui(193)] Failed creating the component instance; see log for reason
+2016-02-12 00:34:58.198 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:33:58 to 2016-02-12T00:34:58
+2016-02-12 00:35:00.002 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.8 to 19.7 through Temperature
+2016-02-12 00:35:00.005 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.8 to 19.7 through Temperature_GF_Corridor
+2016-02-12 00:35:00.007 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Corridor changed from 21.1 to 20.7
+2016-02-12 00:35:00.008 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.7 to 20.0 through Temperature
+2016-02-12 00:35:00.009 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.7 to 20.0 through Temperature_GF_Toilet
+2016-02-12 00:35:00.010 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Toilet changed from 18.1 to 20.1
+2016-02-12 00:35:00.010 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 20.0 to 19.9 through Temperature
+2016-02-12 00:35:00.011 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 20.0 to 19.9 through Temperature_GF_Living
+2016-02-12 00:35:00.011 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Living changed from 21.5 to 20.6
+2016-02-12 00:35:00.012 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Kitchen changed from 17.6 to 17.8
+2016-02-12 00:35:00.013 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.9 to 20.2 through Temperature
+2016-02-12 00:35:00.013 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.9 to 20.2 through Temperature_FF_Bath
+2016-02-12 00:35:00.013 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bath changed from 18.2 to 20.7
+2016-02-12 00:35:00.014 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 20.2 to 19.8 through Temperature
+2016-02-12 00:35:00.014 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 20.2 to 19.8 through Temperature_FF_Office
+2016-02-12 00:35:00.014 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Office changed from 21.8 to 18.8
+2016-02-12 00:35:00.015 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.8 to 19.9 through Temperature
+2016-02-12 00:35:00.015 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.9 to 19.7 through Temperature
+2016-02-12 00:35:00.016 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.8 to 19.9 through Temperature_FF_Child
+2016-02-12 00:35:00.016 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.9 to 19.7 through Temperature_FF_Bed
+2016-02-12 00:35:00.016 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Child changed from 18.4 to 19.3
+2016-02-12 00:35:00.017 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bed changed from 21.5 to 19.6
+2016-02-12 00:35:03.305 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:34:03 to 2016-02-12T00:35:03
+2016-02-12 00:35:58.197 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:34:58 to 2016-02-12T00:35:58
+2016-02-12 00:36:03.278 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:35:03 to 2016-02-12T00:36:03
+2016-02-12 00:36:33.070 [ERROR] [org.eclipse.smarthome.ui.basic      ] - [org.eclipse.smarthome.basicui(193)] The activate method has thrown an exception
+java.lang.IllegalStateException: Multiple servlets map to path: /basicui/app/*: org.ops4j.pax.web.service.spi.model.ServletModel-35,org.ops4j.pax.web.service.spi.model.ServletModel-36
+	at org.eclipse.jetty.servlet.ServletHandler.updateMappings(ServletHandler.java:1488)
+	at org.eclipse.jetty.servlet.ServletHandler.setServletMappings(ServletHandler.java:1585)
+	at org.eclipse.jetty.servlet.ServletHandler.addServletMapping(ServletHandler.java:1023)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:334)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:329)
+	at org.ops4j.pax.swissbox.core.ContextClassLoaderUtils.doWithClassLoader(ContextClassLoaderUtils.java:60)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl.addServlet(JettyServerImpl.java:328)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl$Started.addServlet(ServerControllerImpl.java:290)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl.addServlet(ServerControllerImpl.java:110)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:211)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:190)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:175)
+	at org.ops4j.pax.web.service.internal.HttpServiceProxy.registerServlet(HttpServiceProxy.java:64)
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.activate(WebAppServlet.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source)[:1.8.0_73]
+	at org.apache.felix.scr.impl.helper.BaseMethod.invokeMethod(BaseMethod.java:222)
+	at org.apache.felix.scr.impl.helper.BaseMethod.access$500(BaseMethod.java:37)
+	at org.apache.felix.scr.impl.helper.BaseMethod$Resolved.invoke(BaseMethod.java:615)
+	at org.apache.felix.scr.impl.helper.BaseMethod.invoke(BaseMethod.java:499)
+	at org.apache.felix.scr.impl.helper.ActivateMethod.invoke(ActivateMethod.java:295)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:302)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:113)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:866)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:833)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:774)[28:org.apache.felix.scr:2.0.2]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:212)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at java.security.AccessController.doPrivileged(Native Method)[:1.8.0_73]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:210)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:111)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:45)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:496)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:461)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:619)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at com.eclipsesource.jaxrs.publisher.internal.ResourceTracker.addingService(ResourceTracker.java:39)[12:com.eclipsesource.jaxrs.publisher:5.3.0.201512270850]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:941)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:870)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:901)[org.osgi.core-6.0.0.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:914)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:862)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:801)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.setProperties(ServiceRegistrationImpl.java:168)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.updateServiceRegistration(SingleComponentManager.java:522)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.modify(SingleComponentManager.java:712)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:602)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:566)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurableComponentHolder.configurationUpdated(ConfigurableComponentHolder.java:419)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurationSupport.configurationEvent(ConfigurationSupport.java:315)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.sendEvent(ConfigurationManager.java:2046)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.run(ConfigurationManager.java:2014)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run0(UpdateThread.java:143)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run(UpdateThread.java:110)[7:org.apache.felix.configadmin:1.8.8]
+	at java.lang.Thread.run(Unknown Source)[:1.8.0_73]
+2016-02-12 00:36:33.078 [ERROR] [org.eclipse.smarthome.ui.basic      ] - [org.eclipse.smarthome.basicui(193)] Failed creating the component instance; see log for reason
+2016-02-12 00:36:33.080 [ERROR] [org.eclipse.smarthome.ui.basic      ] - [org.eclipse.smarthome.basicui(193)] The activate method has thrown an exception
+java.lang.IllegalStateException: Multiple servlets map to path: /basicui/app/*: org.ops4j.pax.web.service.spi.model.ServletModel-35,org.ops4j.pax.web.service.spi.model.ServletModel-36
+	at org.eclipse.jetty.servlet.ServletHandler.updateMappings(ServletHandler.java:1488)
+	at org.eclipse.jetty.servlet.ServletHandler.setServletMappings(ServletHandler.java:1585)
+	at org.eclipse.jetty.servlet.ServletHandler.addServletMapping(ServletHandler.java:1023)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:334)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl$2.call(JettyServerImpl.java:329)
+	at org.ops4j.pax.swissbox.core.ContextClassLoaderUtils.doWithClassLoader(ContextClassLoaderUtils.java:60)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerImpl.addServlet(JettyServerImpl.java:328)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl$Started.addServlet(ServerControllerImpl.java:290)
+	at org.ops4j.pax.web.service.jetty.internal.ServerControllerImpl.addServlet(ServerControllerImpl.java:110)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:211)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:190)
+	at org.ops4j.pax.web.service.internal.HttpServiceStarted.registerServlet(HttpServiceStarted.java:175)
+	at org.ops4j.pax.web.service.internal.HttpServiceProxy.registerServlet(HttpServiceProxy.java:64)
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.activate(WebAppServlet.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source)[:1.8.0_73]
+	at org.apache.felix.scr.impl.helper.BaseMethod.invokeMethod(BaseMethod.java:222)
+	at org.apache.felix.scr.impl.helper.BaseMethod.access$500(BaseMethod.java:37)
+	at org.apache.felix.scr.impl.helper.BaseMethod$Resolved.invoke(BaseMethod.java:615)
+	at org.apache.felix.scr.impl.helper.BaseMethod.invoke(BaseMethod.java:499)
+	at org.apache.felix.scr.impl.helper.ActivateMethod.invoke(ActivateMethod.java:295)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:302)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:113)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:866)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:833)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:774)[28:org.apache.felix.scr:2.0.2]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:212)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at java.security.AccessController.doPrivileged(Native Method)[:1.8.0_73]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:210)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:111)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:45)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:496)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:461)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:619)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at com.eclipsesource.jaxrs.publisher.internal.ResourceTracker.addingService(ResourceTracker.java:39)[12:com.eclipsesource.jaxrs.publisher:5.3.0.201512270850]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:941)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:870)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229)[org.osgi.core-6.0.0.jar:]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:901)[org.osgi.core-6.0.0.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:914)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:862)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:801)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.setProperties(ServiceRegistrationImpl.java:168)[org.eclipse.osgi-3.10.2.v20150203-1939.jar:]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.updateServiceRegistration(SingleComponentManager.java:522)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.modify(SingleComponentManager.java:712)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:602)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure(SingleComponentManager.java:566)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurableComponentHolder.configurationUpdated(ConfigurableComponentHolder.java:419)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.scr.impl.config.ConfigurationSupport.configurationEvent(ConfigurationSupport.java:315)[28:org.apache.felix.scr:2.0.2]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.sendEvent(ConfigurationManager.java:2046)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.ConfigurationManager$FireConfigurationEvent.run(ConfigurationManager.java:2014)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run0(UpdateThread.java:143)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run(UpdateThread.java:110)[7:org.apache.felix.configadmin:1.8.8]
+	at java.lang.Thread.run(Unknown Source)[:1.8.0_73]
+2016-02-12 00:36:33.087 [ERROR] [org.eclipse.smarthome.ui.basic      ] - [org.eclipse.smarthome.basicui(193)] Failed creating the component instance; see log for reason
+2016-02-12 00:36:58.198 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:35:58 to 2016-02-12T00:36:58
+2016-02-12 00:37:03.282 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:36:03 to 2016-02-12T00:37:03
+2016-02-12 00:37:23.847 [WARN ] [.core.internal.folder.FolderObserver] - Cannot open file 'C:\openHAB\CREWMA~1\conf\sitemaps\basicui.sitemap' for reading.
+java.io.FileNotFoundException: File 'C:\openHAB\CREWMA~1\conf\sitemaps\basicui.sitemap' does not exist
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:254)[25:org.apache.commons.io:2.2.0]
+	at org.eclipse.smarthome.model.core.internal.folder.FolderObserver.checkFile(FolderObserver.java:240)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.eclipse.smarthome.model.core.internal.folder.FolderObserver.access$1(FolderObserver.java:235)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.eclipse.smarthome.model.core.internal.folder.FolderObserver$WatchQueueReader.processWatchEvent(FolderObserver.java:117)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.eclipse.smarthome.core.service.AbstractWatchQueueReader.run(AbstractWatchQueueReader.java:95)[88:org.eclipse.smarthome.core:0.8.0.b3]
+	at java.lang.Thread.run(Unknown Source)[:1.8.0_73]
+2016-02-12 00:37:23.879 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'basicui.sitemap'
+2016-02-12 00:37:23.886 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'basicui.sitemap'
+2016-02-12 00:37:51.407 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'basicui.sitemap'
+2016-02-12 00:37:51.432 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'basicui.sitemap'
+2016-02-12 00:37:51.441 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'basicui.sitemap'
+2016-02-12 00:37:58.198 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:36:58 to 2016-02-12T00:37:58
+2016-02-12 00:37:58.653 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'basicui.script'
+2016-02-12 00:38:03.273 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:37:03 to 2016-02-12T00:38:03
+2016-02-12 00:38:20.273 [WARN ] [.core.internal.folder.FolderObserver] - Cannot open file 'C:\openHAB\CREWMA~1\conf\rules\basicui.rules' for reading.
+java.io.FileNotFoundException: File 'C:\openHAB\CREWMA~1\conf\rules\basicui.rules' does not exist
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:254)[25:org.apache.commons.io:2.2.0]
+	at org.eclipse.smarthome.model.core.internal.folder.FolderObserver.checkFile(FolderObserver.java:240)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.eclipse.smarthome.model.core.internal.folder.FolderObserver.access$1(FolderObserver.java:235)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.eclipse.smarthome.model.core.internal.folder.FolderObserver$WatchQueueReader.processWatchEvent(FolderObserver.java:117)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.eclipse.smarthome.core.service.AbstractWatchQueueReader.run(AbstractWatchQueueReader.java:95)[88:org.eclipse.smarthome.core:0.8.0.b3]
+	at java.lang.Thread.run(Unknown Source)[:1.8.0_73]
+2016-02-12 00:38:20.306 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'basicui.rules'
+2016-02-12 00:38:20.320 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'basicui.rules'
+2016-02-12 00:38:26.743 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_GF_Living_Table changed from 0 to 100
+2016-02-12 00:38:26.753 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_GF_Corridor_Wardrobe changed from ON to OFF
+2016-02-12 00:38:26.753 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_GF_Toilet_Ceiling changed from OFF to ON
+2016-02-12 00:38:26.754 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_GF_Toilet_Mirror changed from OFF to ON
+2016-02-12 00:38:26.754 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_FF_Bath_Mirror changed from OFF to ON
+2016-02-12 00:38:26.754 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_FF_Office_Ceiling changed from OFF to ON
+2016-02-12 00:38:26.757 [INFO ] [ome.event.GroupItemStateChangedEvent] - gC changed from UNDEF to OFF through Light_C_Staircase
+2016-02-12 00:38:26.757 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_C_Staircase changed from ON to OFF
+2016-02-12 00:38:26.757 [INFO ] [ome.event.GroupItemStateChangedEvent] - gC changed from OFF to UNDEF through Light_C_Washing_Ceiling
+2016-02-12 00:38:26.757 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_C_Washing_Ceiling changed from OFF to ON
+2016-02-12 00:38:26.759 [INFO ] [marthome.event.ItemStateChangedEvent] - Light_Garden_Garage changed from OFF to ON
+2016-02-12 00:38:26.771 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Bath changed from OFF to ON
+2016-02-12 00:38:26.780 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Office changed from ON to OFF
+2016-02-12 00:38:26.786 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Child changed from ON to OFF
+2016-02-12 00:38:26.787 [INFO ] [marthome.event.ItemStateChangedEvent] - Window_FF_Bath changed from CLOSED to OPEN
+2016-02-12 00:38:26.789 [INFO ] [marthome.event.ItemStateChangedEvent] - Window_FF_Office_Door changed from CLOSED to OPEN
+2016-02-12 00:38:26.789 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.7 to 19.6 through Temperature
+2016-02-12 00:38:26.790 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.7 to 19.6 through Temperature_GF_Corridor
+2016-02-12 00:38:26.790 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Corridor changed from 20.7 to 19.9
+2016-02-12 00:38:26.790 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.6 to 19.4 through Temperature
+2016-02-12 00:38:26.791 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.6 to 19.4 through Temperature_GF_Toilet
+2016-02-12 00:38:26.791 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Toilet changed from 20.1 to 18.3
+2016-02-12 00:38:26.791 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.4 to 19.3 through Temperature
+2016-02-12 00:38:26.791 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.4 to 19.3 through Temperature_GF_Living
+2016-02-12 00:38:26.791 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Living changed from 20.6 to 19.9
+2016-02-12 00:38:26.792 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Kitchen changed from 17.8 to 18.0
+2016-02-12 00:38:26.792 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bath changed from 20.7 to 20.2
+2016-02-12 00:38:26.793 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.3 to 19.4 through Temperature
+2016-02-12 00:38:26.793 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.3 to 19.4 through Temperature_FF_Office
+2016-02-12 00:38:26.793 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Office changed from 18.8 to 19.8
+2016-02-12 00:38:26.793 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Child changed from 19.3 to 19.2
+2016-02-12 00:38:26.795 [INFO ] [ome.event.GroupItemStateChangedEvent] - Status changed from 19.4 to 19.3 through Temperature
+2016-02-12 00:38:26.795 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from 19.4 to 19.3 through Temperature_FF_Bed
+2016-02-12 00:38:26.795 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bed changed from 19.6 to 19.4
+2016-02-12 00:38:39.360 [WARN ] [.core.internal.folder.FolderObserver] - Cannot open file 'C:\openHAB\CREWMA~1\conf\items\basicui.items' for reading.
+java.io.FileNotFoundException: File 'C:\openHAB\CREWMA~1\conf\items\basicui.items' does not exist
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:254)[25:org.apache.commons.io:2.2.0]
+	at org.eclipse.smarthome.model.core.internal.folder.FolderObserver.checkFile(FolderObserver.java:240)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.eclipse.smarthome.model.core.internal.folder.FolderObserver.access$1(FolderObserver.java:235)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.eclipse.smarthome.model.core.internal.folder.FolderObserver$WatchQueueReader.processWatchEvent(FolderObserver.java:117)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.eclipse.smarthome.core.service.AbstractWatchQueueReader.run(AbstractWatchQueueReader.java:95)[88:org.eclipse.smarthome.core:0.8.0.b3]
+	at java.lang.Thread.run(Unknown Source)[:1.8.0_73]
+2016-02-12 00:38:39.394 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'basicui.items'
+2016-02-12 00:38:39.410 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_GF_Corridor changed from NULL to OFF
+2016-02-12 00:38:39.413 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_GF_Toilet changed from NULL to OFF
+2016-02-12 00:38:39.418 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_GF_Living changed from NULL to OFF
+2016-02-12 00:38:39.421 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_GF_Kitchen changed from NULL to OFF
+2016-02-12 00:38:39.423 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Bath changed from NULL to ON
+2016-02-12 00:38:39.426 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Office changed from NULL to OFF
+2016-02-12 00:38:39.428 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Child changed from NULL to OFF
+2016-02-12 00:38:39.431 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Bed changed from NULL to ON
+2016-02-12 00:38:39.434 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Corridor changed from NULL to 20.699999999999999289457264239899814128875732421875
+2016-02-12 00:38:39.436 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Toilet changed from NULL to 20.10000000000000142108547152020037174224853515625
+2016-02-12 00:38:39.439 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Living changed from NULL to 20.60000000000000142108547152020037174224853515625
+2016-02-12 00:38:39.442 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Kitchen changed from NULL to 17.800000000000000710542735760100185871124267578125
+2016-02-12 00:38:39.445 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bath changed from NULL to 20.699999999999999289457264239899814128875732421875
+2016-02-12 00:38:39.447 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Office changed from NULL to 18.800000000000000710542735760100185871124267578125
+2016-02-12 00:38:39.449 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Child changed from NULL to 19.300000000000000710542735760100185871124267578125
+2016-02-12 00:38:39.452 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bed changed from NULL to 19.60000000000000142108547152020037174224853515625
+2016-02-12 00:38:39.454 [INFO ] [marthome.event.ItemStateChangedEvent] - Window_GF_Toilet changed from NULL to CLOSED
+2016-02-12 00:38:39.455 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_Temperature changed from NULL to 0
+2016-02-12 00:38:39.457 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_Temp_Max changed from NULL to 0
+2016-02-12 00:38:39.460 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_Temp_Min changed from NULL to 0
+2016-02-12 00:38:39.461 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:37:58 to 2016-02-12T00:38:39
+2016-02-12 00:38:39.464 [INFO ] [marthome.event.ItemStateChangedEvent] - DemoSwitch changed from NULL to OFF
+2016-02-12 00:38:39.466 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'basicui.items'
+2016-02-12 00:38:39.478 [INFO ] [ome.event.GroupItemStateChangedEvent] - GF_Corridor changed from NULL to UNDEF through Heating_GF_Corridor
+2016-02-12 00:38:39.478 [INFO ] [ome.event.GroupItemStateChangedEvent] - Heating changed from NULL to ON through Heating_GF_Corridor
+2016-02-12 00:38:39.478 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_GF_Corridor changed from NULL to OFF
+2016-02-12 00:38:39.478 [INFO ] [ome.event.GroupItemStateChangedEvent] - GF_Toilet changed from NULL to UNDEF through Heating_GF_Toilet
+2016-02-12 00:38:39.478 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_GF_Toilet changed from NULL to OFF
+2016-02-12 00:38:39.479 [INFO ] [ome.event.GroupItemStateChangedEvent] - GF_Living changed from NULL to UNDEF through Heating_GF_Living
+2016-02-12 00:38:39.479 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_GF_Living changed from NULL to OFF
+2016-02-12 00:38:39.479 [INFO ] [ome.event.GroupItemStateChangedEvent] - GF_Kitchen changed from NULL to UNDEF through Heating_GF_Kitchen
+2016-02-12 00:38:39.480 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_GF_Kitchen changed from NULL to OFF
+2016-02-12 00:38:39.480 [INFO ] [ome.event.GroupItemStateChangedEvent] - FF_Bath changed from NULL to UNDEF through Heating_FF_Bath
+2016-02-12 00:38:39.480 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Bath changed from NULL to ON
+2016-02-12 00:38:39.482 [INFO ] [ome.event.GroupItemStateChangedEvent] - FF_Office changed from NULL to UNDEF through Heating_FF_Office
+2016-02-12 00:38:39.482 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Office changed from NULL to OFF
+2016-02-12 00:38:39.485 [INFO ] [ome.event.GroupItemStateChangedEvent] - FF_Child changed from NULL to UNDEF through Heating_FF_Child
+2016-02-12 00:38:39.488 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Child changed from NULL to OFF
+2016-02-12 00:38:39.491 [INFO ] [ome.event.GroupItemStateChangedEvent] - FF_Bed changed from NULL to UNDEF through Heating_FF_Bed
+2016-02-12 00:38:39.492 [INFO ] [marthome.event.ItemStateChangedEvent] - Heating_FF_Bed changed from NULL to ON
+2016-02-12 00:38:39.492 [INFO ] [ome.event.GroupItemStateChangedEvent] - Temperature changed from NULL to 19.3 through Temperature_GF_Corridor
+2016-02-12 00:38:39.493 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Corridor changed from NULL to 20.699999999999999289457264239899814128875732421875
+2016-02-12 00:38:39.493 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Toilet changed from NULL to 20.10000000000000142108547152020037174224853515625
+2016-02-12 00:38:39.501 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Living changed from NULL to 20.60000000000000142108547152020037174224853515625
+2016-02-12 00:38:39.501 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Kitchen changed from NULL to 17.800000000000000710542735760100185871124267578125
+2016-02-12 00:38:39.503 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bath changed from NULL to 20.699999999999999289457264239899814128875732421875
+2016-02-12 00:38:39.504 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Office changed from NULL to 18.800000000000000710542735760100185871124267578125
+2016-02-12 00:38:39.504 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Child changed from NULL to 19.300000000000000710542735760100185871124267578125
+2016-02-12 00:38:39.504 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bed changed from NULL to 19.60000000000000142108547152020037174224853515625
+2016-02-12 00:38:39.504 [INFO ] [ome.event.GroupItemStateChangedEvent] - Windows changed from NULL to OPEN through Window_GF_Toilet
+2016-02-12 00:38:39.504 [INFO ] [marthome.event.ItemStateChangedEvent] - Window_GF_Toilet changed from NULL to CLOSED
+2016-02-12 00:38:39.504 [INFO ] [ome.event.GroupItemStateChangedEvent] - Weather changed from NULL to UNDEF through Weather_Temperature
+2016-02-12 00:38:39.504 [INFO ] [ome.event.GroupItemStateChangedEvent] - Weather_Chart changed from NULL to 0 through Weather_Temperature
+2016-02-12 00:38:39.505 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_Temperature changed from NULL to 0
+2016-02-12 00:38:39.505 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_Temp_Max changed from NULL to 0
+2016-02-12 00:38:39.505 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_Temp_Min changed from NULL to 0
+2016-02-12 00:38:39.506 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from NULL to 2016-02-12T00:38:39
+2016-02-12 00:38:39.506 [INFO ] [marthome.event.ItemStateChangedEvent] - DemoSwitch changed from NULL to OFF
+2016-02-12 00:38:41.501 [INFO ] [ding.astro.handler.AstroThingHandler] - Deleting astro DailyJob for thing 'astro:sun:home'
+2016-02-12 00:38:41.502 [INFO ] [ding.astro.handler.AstroThingHandler] - Scheduled astro DailyJob at midnight for thing astro:sun:home
+2016-02-12 00:38:41.502 [INFO ] [ding.astro.handler.AstroThingHandler] - Scheduled astro PositionalJob with interval of 60 seconds for thing astro:sun:home
+2016-02-12 00:38:41.506 [INFO ] [marthome.event.ItemStateChangedEvent] - Sun_Elevation changed from NULL to 0.24
+2016-02-12 00:38:58.197 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:38:39 to 2016-02-12T00:38:58
+2016-02-12 00:39:03.275 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'gFF'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'gGF'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'gC'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Garden'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Status'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutters'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'GF_Living'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'GF_Kitchen'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'GF_Toilet'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'GF_Corridor'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'FF_Bath'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'FF_Office'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'FF_Child'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'FF_Bed'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'FF_Corridor'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Lights'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Windows'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Living_Table'. Ignoring 'org.eclipse.smarthome.core.library.items.DimmerItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Corridor_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Kitchen_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Kitchen_Table'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.276 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Corridor_Wardrobe'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Toilet_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Toilet_Mirror'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_FF_Bath_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_FF_Bath_Mirror'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_FF_Corridor_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_FF_Office_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_FF_Child_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_FF_Bed_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_C_Corridor_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_C_Staircase'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_C_Washing_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_C_Workshop'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_Garden_Garage'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_Garden_Terrace'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_GF_Corridor'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_GF_Toilet'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_GF_Living'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_GF_Kitchen'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_FF_Bath'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_FF_Office'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_FF_Child'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_FF_Bed'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_GF_Toilet'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_GF_Kitchen'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_GF_Living'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_FF_Bed'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_FF_Bath'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_FF_Office_Window'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:03.277 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_FF_Office_Door'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_all'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_GF_Corridor'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_GF_Toilet'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_GF_Living'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_GF_Kitchen'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_FF_Bath'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_FF_Office'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_FF_Child'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_FF_Bed'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_GF_Frontdoor'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_GF_Kitchen'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_GF_Living'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_GF_Toilet'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_FF_Bath'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_FF_Bed'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_FF_Office_Window'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:03.278 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_FF_Office_Door'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Garage_Door'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather_Chart'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather_Temperature'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather_Temp_Max'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather_Temp_Min'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather_Chart_Period'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather_LastUpdate'. Ignoring 'org.eclipse.smarthome.core.library.items.DateTimeItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Sun_Elevation'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'CurrentDate'. Ignoring 'org.eclipse.smarthome.core.library.items.DateTimeItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'DemoSwitch'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'DimmedLight'. Ignoring 'org.eclipse.smarthome.core.library.items.DimmerItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'RGBLight'. Ignoring 'org.eclipse.smarthome.core.library.items.ColorItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'DemoShutter'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'DemoBlinds'. Ignoring 'org.eclipse.smarthome.core.library.items.DimmerItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Scene_General'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Radio_Station'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Volume'. Ignoring 'org.eclipse.smarthome.core.library.items.DimmerItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_Setpoint'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:03.279 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'DemoLocation'. Ignoring 'org.eclipse.smarthome.core.library.items.LocationItem'.
+2016-02-12 00:39:04.706 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'gFF'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.706 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'gGF'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.706 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'gC'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.706 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Garden'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Status'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutters'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'GF_Living'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'GF_Kitchen'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'GF_Toilet'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'GF_Corridor'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'FF_Bath'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'FF_Office'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'FF_Child'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'FF_Bed'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'FF_Corridor'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Lights'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Windows'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Living_Table'. Ignoring 'org.eclipse.smarthome.core.library.items.DimmerItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Corridor_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Kitchen_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Kitchen_Table'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Corridor_Wardrobe'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Toilet_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_GF_Toilet_Mirror'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_FF_Bath_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_FF_Bath_Mirror'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_FF_Corridor_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_FF_Office_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_FF_Child_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_FF_Bed_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_C_Corridor_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_C_Staircase'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.707 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_C_Washing_Ceiling'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_C_Workshop'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_Garden_Garage'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Light_Garden_Terrace'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_GF_Corridor'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_GF_Toilet'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_GF_Living'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_GF_Kitchen'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_FF_Bath'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_FF_Office'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_FF_Child'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Heating_FF_Bed'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_GF_Toilet'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_GF_Kitchen'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_GF_Living'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_FF_Bed'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_FF_Bath'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_FF_Office_Window'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_FF_Office_Door'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Shutter_all'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_GF_Corridor'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_GF_Toilet'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_GF_Living'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.708 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_GF_Kitchen'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_FF_Bath'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_FF_Office'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_FF_Child'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_FF_Bed'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_GF_Frontdoor'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_GF_Kitchen'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_GF_Living'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_GF_Toilet'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_FF_Bath'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_FF_Bed'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_FF_Office_Window'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Window_FF_Office_Door'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Garage_Door'. Ignoring 'org.eclipse.smarthome.core.library.items.ContactItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather_Chart'. Ignoring 'org.eclipse.smarthome.core.items.GroupItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather_Temperature'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather_Temp_Max'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather_Temp_Min'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather_Chart_Period'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Weather_LastUpdate'. Ignoring 'org.eclipse.smarthome.core.library.items.DateTimeItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Sun_Elevation'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'CurrentDate'. Ignoring 'org.eclipse.smarthome.core.library.items.DateTimeItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'DemoSwitch'. Ignoring 'org.eclipse.smarthome.core.library.items.SwitchItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'DimmedLight'. Ignoring 'org.eclipse.smarthome.core.library.items.DimmerItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'RGBLight'. Ignoring 'org.eclipse.smarthome.core.library.items.ColorItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'DemoShutter'. Ignoring 'org.eclipse.smarthome.core.library.items.RollershutterItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'DemoBlinds'. Ignoring 'org.eclipse.smarthome.core.library.items.DimmerItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Scene_General'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Radio_Station'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Volume'. Ignoring 'org.eclipse.smarthome.core.library.items.DimmerItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'Temperature_Setpoint'. Ignoring 'org.eclipse.smarthome.core.library.items.NumberItem'.
+2016-02-12 00:39:04.709 [WARN ] [.rule.jvmmodel.RulesJvmModelInferrer] - Duplicate field: 'DemoLocation'. Ignoring 'org.eclipse.smarthome.core.library.items.LocationItem'.
+2016-02-12 00:39:06.020 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from NULL to 2016-02-12T00:39:04
+2016-02-12 00:39:06.020 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:39:04 to 2016-02-12T00:39:06
+2016-02-12 00:39:41.505 [INFO ] [marthome.event.ItemStateChangedEvent] - Sun_Elevation changed from 0.24 to 0.38
+2016-02-12 00:39:58.197 [INFO ] [marthome.event.ItemStateChangedEvent] - CurrentDate changed from 2016-02-12T00:38:58 to 2016-02-12T00:39:58
+2016-02-12 00:40:00.017 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Corridor changed from 20.699999999999999289457264239899814128875732421875 to 19.7
+2016-02-12 00:40:00.017 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Toilet changed from 20.10000000000000142108547152020037174224853515625 to 19.0
+2016-02-12 00:40:00.017 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Corridor changed from 19.7 to 19.8
+2016-02-12 00:40:00.017 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Living changed from 20.60000000000000142108547152020037174224853515625 to 18.2
+2016-02-12 00:40:00.017 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Toilet changed from 19.0 to 21.0
+2016-02-12 00:40:00.017 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Living changed from 18.2 to 18.8
+2016-02-12 00:40:00.017 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Kitchen changed from 17.800000000000000710542735760100185871124267578125 to 21.7
+2016-02-12 00:40:00.017 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bath changed from 20.699999999999999289457264239899814128875732421875 to 20.1
+2016-02-12 00:40:00.017 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_GF_Kitchen changed from 21.7 to 18.6
+2016-02-12 00:40:00.017 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bath changed from 20.1 to 22.2
+2016-02-12 00:40:00.017 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Office changed from 18.800000000000000710542735760100185871124267578125 to 21.4
+2016-02-12 00:40:00.018 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Child changed from 19.300000000000000710542735760100185871124267578125 to 18.6
+2016-02-12 00:40:00.018 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Office changed from 21.4 to 18.2
+2016-02-12 00:40:00.018 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Child changed from 18.6 to 18.1
+2016-02-12 00:40:00.018 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bed changed from 19.60000000000000142108547152020037174224853515625 to 22.1
+2016-02-12 00:40:00.018 [INFO ] [marthome.event.ItemStateChangedEvent] - Temperature_FF_Bed changed from 22.1 to 20.9
+2016-02-12 00:40:03.282 [INFO ] [marthome.event.ItemStateChangedEvent] - Weather_LastUpdate changed from 2016-02-12T00:39:06 to 2016-02-12T00:40:03
