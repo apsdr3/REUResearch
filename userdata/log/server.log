@@ -1,0 +1,205 @@
+2016-02-13 21:47:21,548 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.main Mary starting up...
+2016-02-13 21:47:21,550 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.main Specification version 5.1-SNAPSHOT
+2016-02-13 21:47:21,550 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.main Implementation version unknown
+2016-02-13 21:47:21,550 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.main Running on a Java 1.8.0_73 implementation by Oracle Corporation, on a Windows 10 platform (amd64, 10.0)
+2016-02-13 21:47:21,610 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2016-02-13 21:47:21,612 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2016-02-13 21:47:21,613 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2016-02-13 21:47:21,613 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2016-02-13 21:47:21,613 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2016-02-13 21:47:21,614 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2016-02-13 21:47:21,614 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2016-02-13 21:47:21,615 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2016-02-13 21:47:21,615 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2016-02-13 21:47:21,629 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2016-02-13 21:47:21,629 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2016-02-13 21:47:21,630 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2016-02-13 21:47:21,630 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2016-02-13 21:47:21,631 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2016-02-13 21:47:21,631 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2016-02-13 21:47:21,631 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2016-02-13 21:47:21,632 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2016-02-13 21:47:21,633 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JTokeniser'
+2016-02-13 21:47:21,633 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Preprocess'
+2016-02-13 21:47:21,634 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(de,de.pos)'
+2016-02-13 21:47:21,634 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JPhonemiser'
+2016-02-13 21:47:21,635 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JPhonemiser_de User dictionary '.\user-dictionaries\userdict-de.txt' for locale 'de' does not exist. Ignoring.
+2016-02-13 21:47:21,659 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Prosody'
+2016-02-13 21:47:21,660 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Postlex'
+2016-02-13 21:47:21,660 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(de)'
+2016-02-13 21:47:21,661 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.JTokeniser'
+2016-02-13 21:47:21,661 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.FreeTTSTokenToWords'
+2016-02-13 21:47:21,662 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_US.)'
+2016-02-13 21:47:21,662 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_US.txt' for locale 'en_US' does not exist. Ignoring.
+2016-02-13 21:47:21,699 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_GB.)'
+2016-02-13 21:47:21,699 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_GB.txt' for locale 'en_GB' does not exist. Ignoring.
+2016-02-13 21:47:21,729 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Prosody'
+2016-02-13 21:47:21,730 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(en_US)'
+2016-02-13 21:47:21,730 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Utt2XMLWordsEn'
+2016-02-13 21:47:21,731 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.XML2UttTokensEn'
+2016-02-13 21:47:21,734 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.PronunciationModel'
+2016-02-13 21:47:21,734 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(en,en.pos)'
+2016-02-13 21:47:21,745 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.UnitSelectionSynthesizer started.
+2016-02-13 21:47:21,746 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2016-02-13 21:47:21,746 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2016-02-13 21:47:21,765 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2016-02-13 21:47:21,818 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.HMMData Loading GV Model Set:
+2016-02-13 21:47:21,893 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Voice Registering voice `cmu-slt-hsmm': female, locale en_US
+2016-02-13 21:47:21,901 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Voice New default voice for locale en_US: cmu-slt-hsmm (desire 0)
+2016-02-13 21:47:21,904 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2016-02-13 21:47:21,955 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.HMMData Loading GV Model Set:
+2016-02-13 21:47:22,137 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Voice Registering voice `bits1-hsmm': female, locale de
+2016-02-13 21:47:22,137 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Voice New default voice for locale de: bits1-hsmm (desire 0)
+2016-02-13 21:47:22,138 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2016-02-13 21:47:22,171 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.HMMData Loading GV Model Set:
+2016-02-13 21:47:22,244 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Voice Registering voice `bits3-hsmm': male, locale de
+2016-02-13 21:47:22,244 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.HMMSynthesizer started.
+2016-02-13 21:47:22,244 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Synthesis Module started (ACOUSTPARAMS->AUDIO, locale null).
+2016-02-13 21:47:22,244 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.HMMSynthesizer Starting power-on self test.
+2016-02-13 21:47:22,263 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.HTSEngine Using prosody from acoustparams.
+2016-02-13 21:47:22,263 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.HTSEngine Number of models in sentence numModel=7  Total number of states numState=35
+2016-02-13 21:47:22,264 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.HTSEngine Total number of frames=147  Number of voiced frames=89
+2016-02-13 21:47:22,267 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ParameterGeneration Parameter generation for MGC: 
+2016-02-13 21:47:22,267 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 107
+2016-02-13 21:47:22,270 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=23
+2016-02-13 21:47:22,274 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=54
+2016-02-13 21:47:22,277 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=47
+2016-02-13 21:47:22,278 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=20
+2016-02-13 21:47:22,279 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=13
+2016-02-13 21:47:22,280 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (5)  number of iterations=21
+2016-02-13 21:47:22,282 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (6)  number of iterations=7
+2016-02-13 21:47:22,282 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (7)  number of iterations=4
+2016-02-13 21:47:22,283 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (8)  number of iterations=11
+2016-02-13 21:47:22,285 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (9)  number of iterations=19
+2016-02-13 21:47:22,286 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (10)  number of iterations=16
+2016-02-13 21:47:22,286 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (11)  number of iterations=8
+2016-02-13 21:47:22,286 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (12)  number of iterations=2
+2016-02-13 21:47:22,287 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (13)  number of iterations=13
+2016-02-13 21:47:22,287 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (14)  number of iterations=13
+2016-02-13 21:47:22,288 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (15)  number of iterations=18
+2016-02-13 21:47:22,289 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (16)  number of iterations=14
+2016-02-13 21:47:22,289 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (17)  number of iterations=16
+2016-02-13 21:47:22,289 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (18)  number of iterations=17
+2016-02-13 21:47:22,296 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (19)  number of iterations=12
+2016-02-13 21:47:22,296 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (20)  number of iterations=16
+2016-02-13 21:47:22,296 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (21)  number of iterations=14
+2016-02-13 21:47:22,297 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (22)  number of iterations=12
+2016-02-13 21:47:22,298 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (23)  number of iterations=18
+2016-02-13 21:47:22,298 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (24)  number of iterations=12
+2016-02-13 21:47:22,299 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (25)  number of iterations=10
+2016-02-13 21:47:22,299 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (26)  number of iterations=13
+2016-02-13 21:47:22,299 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (27)  number of iterations=10
+2016-02-13 21:47:22,300 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (28)  number of iterations=13
+2016-02-13 21:47:22,300 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (29)  number of iterations=8
+2016-02-13 21:47:22,300 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (30)  number of iterations=8
+2016-02-13 21:47:22,301 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (31)  number of iterations=14
+2016-02-13 21:47:22,301 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (32)  number of iterations=8
+2016-02-13 21:47:22,301 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (33)  number of iterations=8
+2016-02-13 21:47:22,301 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (34)  number of iterations=14
+2016-02-13 21:47:22,301 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.ParameterGeneration Using f0 from maryXML acoustparams
+2016-02-13 21:47:22,302 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 107
+2016-02-13 21:47:22,303 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=16
+2016-02-13 21:47:22,303 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=2
+2016-02-13 21:47:22,303 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=33
+2016-02-13 21:47:22,304 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=8
+2016-02-13 21:47:22,304 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=26
+2016-02-13 21:47:22,306 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.HMMSynthesizer Power-on self test complete.
+2016-02-13 21:47:22,306 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.TextToMaryXML Module started (TEXT->RAWMARYXML, locale null).
+2016-02-13 21:47:22,307 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.TextToMaryXML Starting power-on self test.
+2016-02-13 21:47:22,307 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.TextToMaryXML Power-on self test complete.
+2016-02-13 21:47:22,444 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.SableParser Module started (SABLE->RAWMARYXML, locale null).
+2016-02-13 21:47:22,444 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.SableParser Starting power-on self test.
+2016-02-13 21:47:22,444 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.SableParser Power-on self test complete.
+2016-02-13 21:47:22,490 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.SSMLParser Module started (SSML->RAWMARYXML, locale null).
+2016-02-13 21:47:22,490 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.SSMLParser Starting power-on self test.
+2016-02-13 21:47:22,490 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.SSMLParser Power-on self test complete.
+2016-02-13 21:47:22,524 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.APMLParser Module started (APML->RAWMARYXML, locale null).
+2016-02-13 21:47:22,524 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.APMLParser Starting power-on self test.
+2016-02-13 21:47:22,524 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.APMLParser Power-on self test complete.
+2016-02-13 21:47:22,544 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.EmotionmlParser Module started (EMOTIONML->RAWMARYXML, locale null).
+2016-02-13 21:47:22,544 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.EmotionmlParser Starting power-on self test.
+2016-02-13 21:47:22,545 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.EmotionmlParser Power-on self test complete.
+2016-02-13 21:47:22,545 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale null).
+2016-02-13 21:47:22,560 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JTokeniser Starting power-on self test.
+2016-02-13 21:47:22,561 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JTokeniser Power-on self test complete.
+2016-02-13 21:47:22,561 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.DummyTokens2Words Module started (TOKENS->WORDS, locale null).
+2016-02-13 21:47:22,561 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.DummyTokens2Words Starting power-on self test.
+2016-02-13 21:47:22,561 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.DummyTokens2Words Power-on self test complete.
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale null).
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Prosody Starting power-on self test.
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Prosody Power-on self test complete.
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale null).
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PronunciationModel Starting power-on self test.
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PronunciationModel Power-on self test complete.
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.TargetFeatureLister Starting power-on self test.
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.TargetFeatureLister Power-on self test complete.
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->HALFPHONE_TARGETFEATURES, locale null).
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.TargetFeatureLister Starting power-on self test.
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.TargetFeatureLister Power-on self test complete.
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.AcousticModeller Module started (ALLOPHONES->ACOUSTPARAMS, locale null).
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.AcousticModeller Starting power-on self test.
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.AcousticModeller Power-on self test complete.
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Realised acoustparams extractor Module started (AUDIO->REALISED_ACOUSTPARAMS, locale null).
+2016-02-13 21:47:22,563 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Realised acoustparams extractor Starting power-on self test.
+2016-02-13 21:47:22,564 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Realised acoustparams extractor Power-on self test complete.
+2016-02-13 21:47:22,564 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Realised durations extractor Module started (AUDIO->REALISED_DURATIONS, locale null).
+2016-02-13 21:47:22,564 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Realised durations extractor Starting power-on self test.
+2016-02-13 21:47:22,564 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Realised durations extractor Power-on self test complete.
+2016-02-13 21:47:22,564 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Praat TextGrid generator Module started (AUDIO->PRAAT_TEXTGRID, locale null).
+2016-02-13 21:47:22,564 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Praat TextGrid generator Starting power-on self test.
+2016-02-13 21:47:22,564 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Praat TextGrid generator Power-on self test complete.
+2016-02-13 21:47:22,564 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale de).
+2016-02-13 21:47:22,570 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JTokeniser Starting power-on self test.
+2016-02-13 21:47:22,572 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JTokeniser Power-on self test complete.
+2016-02-13 21:47:22,573 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Preprocess Module started (TOKENS->WORDS, locale de).
+2016-02-13 21:47:22,573 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Preprocess Starting power-on self test.
+2016-02-13 21:47:22,573 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Preprocess Expanding say-as elements...
+2016-02-13 21:47:22,573 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Preprocess Matching and expanding patterns...
+2016-02-13 21:47:22,594 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Preprocess Done.
+2016-02-13 21:47:22,594 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Preprocess Power-on self test complete.
+2016-02-13 21:47:22,594 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.OpenNLPPosTagger Module started (WORDS->PARTSOFSPEECH, locale de).
+2016-02-13 21:47:23,007 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.OpenNLPPosTagger Starting power-on self test.
+2016-02-13 21:47:23,007 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.OpenNLPPosTagger Power-on self test complete.
+2016-02-13 21:47:23,007 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JPhonemiser_de Module started (PARTSOFSPEECH->PHONEMES, locale de).
+2016-02-13 21:47:23,014 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JPhonemiser_de Starting power-on self test.
+2016-02-13 21:47:23,014 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JPhonemiser_de Power-on self test complete.
+2016-02-13 21:47:23,016 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale de).
+2016-02-13 21:47:23,016 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Prosody Starting power-on self test.
+2016-02-13 21:47:23,016 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Prosody Power-on self test complete.
+2016-02-13 21:47:23,016 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale de).
+2016-02-13 21:47:23,016 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PronunciationModel Starting power-on self test.
+2016-02-13 21:47:23,016 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PronunciationModel Power-on self test complete.
+2016-02-13 21:47:23,016 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.SimplePhoneme2AP Module started (SIMPLEPHONEMES->ACOUSTPARAMS, locale de).
+2016-02-13 21:47:23,016 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.SimplePhoneme2AP Starting power-on self test.
+2016-02-13 21:47:23,018 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.SimplePhoneme2AP Power-on self test complete.
+2016-02-13 21:47:23,018 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale en).
+2016-02-13 21:47:23,023 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JTokeniser Starting power-on self test.
+2016-02-13 21:47:23,023 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JTokeniser Power-on self test complete.
+2016-02-13 21:47:23,023 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.TokenToWords Module started (FREETTS_TOKENS->FREETTS_WORDS, locale en).
+2016-02-13 21:47:23,029 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.TokenToWords Starting power-on self test.
+2016-02-13 21:47:23,029 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.TokenToWords Power-on self test complete.
+2016-02-13 21:47:23,029 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JPhonemiser Module started (PARTSOFSPEECH->PHONEMES, locale en_US).
+2016-02-13 21:47:23,029 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JPhonemiser Starting power-on self test.
+2016-02-13 21:47:23,029 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JPhonemiser Power-on self test complete.
+2016-02-13 21:47:23,029 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JPhonemiser Module started (PARTSOFSPEECH->PHONEMES, locale en_GB).
+2016-02-13 21:47:23,029 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JPhonemiser Starting power-on self test.
+2016-02-13 21:47:23,029 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.JPhonemiser Power-on self test complete.
+2016-02-13 21:47:23,030 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale en).
+2016-02-13 21:47:23,030 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Prosody Starting power-on self test.
+2016-02-13 21:47:23,030 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Prosody Power-on self test complete.
+2016-02-13 21:47:23,031 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.SimplePhoneme2AP Module started (SIMPLEPHONEMES->ACOUSTPARAMS, locale en_US).
+2016-02-13 21:47:23,031 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.SimplePhoneme2AP Starting power-on self test.
+2016-02-13 21:47:23,032 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.SimplePhoneme2AP Power-on self test complete.
+2016-02-13 21:47:23,032 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Utt2XML WordsEn Module started (FREETTS_WORDS->WORDS, locale en).
+2016-02-13 21:47:23,032 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Utt2XML WordsEn Starting power-on self test.
+2016-02-13 21:47:23,032 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.Utt2XML WordsEn Power-on self test complete.
+2016-02-13 21:47:23,032 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.XML2Utt TokensEn Module started (TOKENS->FREETTS_TOKENS, locale en).
+2016-02-13 21:47:23,032 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.XML2Utt TokensEn Starting power-on self test.
+2016-02-13 21:47:23,032 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.XML2Utt TokensEn Power-on self test complete.
+2016-02-13 21:47:23,032 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale en).
+2016-02-13 21:47:23,032 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PronunciationModel Starting power-on self test.
+2016-02-13 21:47:23,032 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.PronunciationModel Power-on self test complete.
+2016-02-13 21:47:23,032 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.OpenNLPPosTagger Module started (WORDS->PARTSOFSPEECH, locale en).
+2016-02-13 21:47:23,450 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.OpenNLPPosTagger Starting power-on self test.
+2016-02-13 21:47:23,450 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.OpenNLPPosTagger Power-on self test complete.
+2016-02-13 21:47:23,450 [Refresh Thread: Equinox Container: 509919dd-c9d2-0015-1e49-9b8fd453db01] INFO  marytts.main Startup complete.
