@@ -116,3 +116,5 @@
 2016-02-17 22:55:56.829 [hingStatusInfoChangedEvent] - 'ntp:ntp:demo' changed from UNINITIALIZED to INITIALIZING
 2016-02-17 22:55:56.963 [hingStatusInfoChangedEvent] - 'ntp:ntp:demo' changed from INITIALIZING to ONLINE
 2016-02-17 22:55:57.047 [InboxUpdatedEvent         ] - Discovery Result with UID 'ntp:ntp:local' has been updated.
+2016-02-17 23:46:36.636 [InboxUpdatedEvent         ] - Discovery Result with UID 'ntp:ntp:local' has been updated.
+2016-02-17 23:47:39.961 [InboxUpdatedEvent         ] - Discovery Result with UID 'ntp:ntp:local' has been updated.

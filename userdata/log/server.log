@@ -203,3 +203,413 @@
 2016-02-17 23:40:27,802 [Refresh Thread: Equinox Container: a04446df-fbd5-0015-126f-9269cc9dfde8] INFO  marytts.OpenNLPPosTagger Starting power-on self test.
 2016-02-17 23:40:27,802 [Refresh Thread: Equinox Container: a04446df-fbd5-0015-126f-9269cc9dfde8] INFO  marytts.OpenNLPPosTagger Power-on self test complete.
 2016-02-17 23:40:27,803 [Refresh Thread: Equinox Container: a04446df-fbd5-0015-126f-9269cc9dfde8] INFO  marytts.main Startup complete.
+2016-02-17 23:46:31,354 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.main Mary starting up...
+2016-02-17 23:46:31,356 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.main Specification version 5.1-SNAPSHOT
+2016-02-17 23:46:31,356 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.main Implementation version unknown
+2016-02-17 23:46:31,356 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.main Running on a Java 1.8.0_73 implementation by Oracle Corporation, on a Windows 10 platform (amd64, 10.0)
+2016-02-17 23:46:31,411 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2016-02-17 23:46:31,414 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2016-02-17 23:46:31,414 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2016-02-17 23:46:31,414 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2016-02-17 23:46:31,415 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2016-02-17 23:46:31,415 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2016-02-17 23:46:31,415 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2016-02-17 23:46:31,416 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2016-02-17 23:46:31,416 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2016-02-17 23:46:31,418 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2016-02-17 23:46:31,419 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2016-02-17 23:46:31,419 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2016-02-17 23:46:31,420 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2016-02-17 23:46:31,420 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2016-02-17 23:46:31,420 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2016-02-17 23:46:31,421 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2016-02-17 23:46:31,421 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2016-02-17 23:46:31,422 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JTokeniser'
+2016-02-17 23:46:31,422 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Preprocess'
+2016-02-17 23:46:31,423 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(de,de.pos)'
+2016-02-17 23:46:31,423 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JPhonemiser'
+2016-02-17 23:46:31,424 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JPhonemiser_de User dictionary '.\user-dictionaries\userdict-de.txt' for locale 'de' does not exist. Ignoring.
+2016-02-17 23:46:31,443 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Prosody'
+2016-02-17 23:46:31,443 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Postlex'
+2016-02-17 23:46:31,444 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(de)'
+2016-02-17 23:46:31,444 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.JTokeniser'
+2016-02-17 23:46:31,444 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.FreeTTSTokenToWords'
+2016-02-17 23:46:31,445 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_US.)'
+2016-02-17 23:46:31,446 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_US.txt' for locale 'en_US' does not exist. Ignoring.
+2016-02-17 23:46:31,463 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_GB.)'
+2016-02-17 23:46:31,463 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_GB.txt' for locale 'en_GB' does not exist. Ignoring.
+2016-02-17 23:46:31,479 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Prosody'
+2016-02-17 23:46:31,480 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(en_US)'
+2016-02-17 23:46:31,480 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Utt2XMLWordsEn'
+2016-02-17 23:46:31,482 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.XML2UttTokensEn'
+2016-02-17 23:46:31,484 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.PronunciationModel'
+2016-02-17 23:46:31,485 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(en,en.pos)'
+2016-02-17 23:46:31,487 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.UnitSelectionSynthesizer started.
+2016-02-17 23:46:31,487 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2016-02-17 23:46:31,487 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2016-02-17 23:46:31,498 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2016-02-17 23:46:31,539 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.HMMData Loading GV Model Set:
+2016-02-17 23:46:31,597 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Voice Registering voice `cmu-slt-hsmm': female, locale en_US
+2016-02-17 23:46:31,603 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Voice New default voice for locale en_US: cmu-slt-hsmm (desire 0)
+2016-02-17 23:46:31,609 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2016-02-17 23:46:31,645 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.HMMData Loading GV Model Set:
+2016-02-17 23:46:31,747 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Voice Registering voice `bits1-hsmm': female, locale de
+2016-02-17 23:46:31,747 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Voice New default voice for locale de: bits1-hsmm (desire 0)
+2016-02-17 23:46:31,749 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2016-02-17 23:46:31,792 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.HMMData Loading GV Model Set:
+2016-02-17 23:46:31,883 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Voice Registering voice `bits3-hsmm': male, locale de
+2016-02-17 23:46:31,883 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.HMMSynthesizer started.
+2016-02-17 23:46:31,883 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Synthesis Module started (ACOUSTPARAMS->AUDIO, locale null).
+2016-02-17 23:46:31,883 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.HMMSynthesizer Starting power-on self test.
+2016-02-17 23:46:31,897 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.HTSEngine Using prosody from acoustparams.
+2016-02-17 23:46:31,899 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.HTSEngine Number of models in sentence numModel=7  Total number of states numState=35
+2016-02-17 23:46:31,899 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.HTSEngine Total number of frames=147  Number of voiced frames=89
+2016-02-17 23:46:31,902 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ParameterGeneration Parameter generation for MGC: 
+2016-02-17 23:46:31,902 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 107
+2016-02-17 23:46:31,905 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=23
+2016-02-17 23:46:31,910 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=54
+2016-02-17 23:46:31,912 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=47
+2016-02-17 23:46:31,913 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=20
+2016-02-17 23:46:31,914 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=13
+2016-02-17 23:46:31,916 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (5)  number of iterations=21
+2016-02-17 23:46:31,917 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (6)  number of iterations=7
+2016-02-17 23:46:31,918 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (7)  number of iterations=4
+2016-02-17 23:46:31,919 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (8)  number of iterations=11
+2016-02-17 23:46:31,919 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (9)  number of iterations=19
+2016-02-17 23:46:31,920 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (10)  number of iterations=16
+2016-02-17 23:46:31,920 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (11)  number of iterations=8
+2016-02-17 23:46:31,920 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (12)  number of iterations=2
+2016-02-17 23:46:31,921 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (13)  number of iterations=13
+2016-02-17 23:46:31,921 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (14)  number of iterations=13
+2016-02-17 23:46:31,921 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (15)  number of iterations=18
+2016-02-17 23:46:31,922 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (16)  number of iterations=14
+2016-02-17 23:46:31,922 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (17)  number of iterations=16
+2016-02-17 23:46:31,922 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (18)  number of iterations=17
+2016-02-17 23:46:31,923 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (19)  number of iterations=12
+2016-02-17 23:46:31,923 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (20)  number of iterations=16
+2016-02-17 23:46:31,924 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (21)  number of iterations=14
+2016-02-17 23:46:31,924 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (22)  number of iterations=12
+2016-02-17 23:46:31,924 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (23)  number of iterations=18
+2016-02-17 23:46:31,925 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (24)  number of iterations=12
+2016-02-17 23:46:31,925 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (25)  number of iterations=10
+2016-02-17 23:46:31,925 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (26)  number of iterations=13
+2016-02-17 23:46:31,926 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (27)  number of iterations=10
+2016-02-17 23:46:31,926 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (28)  number of iterations=13
+2016-02-17 23:46:31,926 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (29)  number of iterations=8
+2016-02-17 23:46:31,926 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (30)  number of iterations=8
+2016-02-17 23:46:31,927 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (31)  number of iterations=14
+2016-02-17 23:46:31,927 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (32)  number of iterations=8
+2016-02-17 23:46:31,927 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (33)  number of iterations=8
+2016-02-17 23:46:31,928 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (34)  number of iterations=14
+2016-02-17 23:46:31,928 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.ParameterGeneration Using f0 from maryXML acoustparams
+2016-02-17 23:46:31,929 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 107
+2016-02-17 23:46:31,929 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=16
+2016-02-17 23:46:31,929 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=2
+2016-02-17 23:46:31,930 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=33
+2016-02-17 23:46:31,930 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=8
+2016-02-17 23:46:31,931 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=26
+2016-02-17 23:46:31,932 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.HMMSynthesizer Power-on self test complete.
+2016-02-17 23:46:31,933 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.TextToMaryXML Module started (TEXT->RAWMARYXML, locale null).
+2016-02-17 23:46:31,933 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.TextToMaryXML Starting power-on self test.
+2016-02-17 23:46:31,934 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.TextToMaryXML Power-on self test complete.
+2016-02-17 23:46:32,042 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.SableParser Module started (SABLE->RAWMARYXML, locale null).
+2016-02-17 23:46:32,042 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.SableParser Starting power-on self test.
+2016-02-17 23:46:32,042 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.SableParser Power-on self test complete.
+2016-02-17 23:46:32,080 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.SSMLParser Module started (SSML->RAWMARYXML, locale null).
+2016-02-17 23:46:32,080 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.SSMLParser Starting power-on self test.
+2016-02-17 23:46:32,080 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.SSMLParser Power-on self test complete.
+2016-02-17 23:46:32,117 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.APMLParser Module started (APML->RAWMARYXML, locale null).
+2016-02-17 23:46:32,117 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.APMLParser Starting power-on self test.
+2016-02-17 23:46:32,117 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.APMLParser Power-on self test complete.
+2016-02-17 23:46:32,142 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.EmotionmlParser Module started (EMOTIONML->RAWMARYXML, locale null).
+2016-02-17 23:46:32,142 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.EmotionmlParser Starting power-on self test.
+2016-02-17 23:46:32,142 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.EmotionmlParser Power-on self test complete.
+2016-02-17 23:46:32,142 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale null).
+2016-02-17 23:46:32,156 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JTokeniser Starting power-on self test.
+2016-02-17 23:46:32,156 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JTokeniser Power-on self test complete.
+2016-02-17 23:46:32,156 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.DummyTokens2Words Module started (TOKENS->WORDS, locale null).
+2016-02-17 23:46:32,156 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.DummyTokens2Words Starting power-on self test.
+2016-02-17 23:46:32,156 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.DummyTokens2Words Power-on self test complete.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale null).
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Prosody Starting power-on self test.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Prosody Power-on self test complete.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale null).
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PronunciationModel Starting power-on self test.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PronunciationModel Power-on self test complete.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.TargetFeatureLister Starting power-on self test.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.TargetFeatureLister Power-on self test complete.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->HALFPHONE_TARGETFEATURES, locale null).
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.TargetFeatureLister Starting power-on self test.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.TargetFeatureLister Power-on self test complete.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.AcousticModeller Module started (ALLOPHONES->ACOUSTPARAMS, locale null).
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.AcousticModeller Starting power-on self test.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.AcousticModeller Power-on self test complete.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Realised acoustparams extractor Module started (AUDIO->REALISED_ACOUSTPARAMS, locale null).
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Realised acoustparams extractor Starting power-on self test.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Realised acoustparams extractor Power-on self test complete.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Realised durations extractor Module started (AUDIO->REALISED_DURATIONS, locale null).
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Realised durations extractor Starting power-on self test.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Realised durations extractor Power-on self test complete.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Praat TextGrid generator Module started (AUDIO->PRAAT_TEXTGRID, locale null).
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Praat TextGrid generator Starting power-on self test.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Praat TextGrid generator Power-on self test complete.
+2016-02-17 23:46:32,159 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale de).
+2016-02-17 23:46:32,164 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JTokeniser Starting power-on self test.
+2016-02-17 23:46:32,166 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JTokeniser Power-on self test complete.
+2016-02-17 23:46:32,166 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Preprocess Module started (TOKENS->WORDS, locale de).
+2016-02-17 23:46:32,166 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Preprocess Starting power-on self test.
+2016-02-17 23:46:32,167 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Preprocess Expanding say-as elements...
+2016-02-17 23:46:32,167 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Preprocess Matching and expanding patterns...
+2016-02-17 23:46:32,180 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Preprocess Done.
+2016-02-17 23:46:32,180 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Preprocess Power-on self test complete.
+2016-02-17 23:46:32,180 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.OpenNLPPosTagger Module started (WORDS->PARTSOFSPEECH, locale de).
+2016-02-17 23:46:32,490 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.OpenNLPPosTagger Starting power-on self test.
+2016-02-17 23:46:32,490 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.OpenNLPPosTagger Power-on self test complete.
+2016-02-17 23:46:32,490 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JPhonemiser_de Module started (PARTSOFSPEECH->PHONEMES, locale de).
+2016-02-17 23:46:32,498 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JPhonemiser_de Starting power-on self test.
+2016-02-17 23:46:32,498 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JPhonemiser_de Power-on self test complete.
+2016-02-17 23:46:32,501 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale de).
+2016-02-17 23:46:32,501 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Prosody Starting power-on self test.
+2016-02-17 23:46:32,501 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Prosody Power-on self test complete.
+2016-02-17 23:46:32,501 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale de).
+2016-02-17 23:46:32,501 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PronunciationModel Starting power-on self test.
+2016-02-17 23:46:32,501 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PronunciationModel Power-on self test complete.
+2016-02-17 23:46:32,501 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.SimplePhoneme2AP Module started (SIMPLEPHONEMES->ACOUSTPARAMS, locale de).
+2016-02-17 23:46:32,501 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.SimplePhoneme2AP Starting power-on self test.
+2016-02-17 23:46:32,502 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.SimplePhoneme2AP Power-on self test complete.
+2016-02-17 23:46:32,502 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale en).
+2016-02-17 23:46:32,508 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JTokeniser Starting power-on self test.
+2016-02-17 23:46:32,508 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JTokeniser Power-on self test complete.
+2016-02-17 23:46:32,508 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.TokenToWords Module started (FREETTS_TOKENS->FREETTS_WORDS, locale en).
+2016-02-17 23:46:32,514 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.TokenToWords Starting power-on self test.
+2016-02-17 23:46:32,514 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.TokenToWords Power-on self test complete.
+2016-02-17 23:46:32,514 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JPhonemiser Module started (PARTSOFSPEECH->PHONEMES, locale en_US).
+2016-02-17 23:46:32,514 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JPhonemiser Starting power-on self test.
+2016-02-17 23:46:32,514 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JPhonemiser Power-on self test complete.
+2016-02-17 23:46:32,514 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JPhonemiser Module started (PARTSOFSPEECH->PHONEMES, locale en_GB).
+2016-02-17 23:46:32,514 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JPhonemiser Starting power-on self test.
+2016-02-17 23:46:32,514 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.JPhonemiser Power-on self test complete.
+2016-02-17 23:46:32,516 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale en).
+2016-02-17 23:46:32,516 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Prosody Starting power-on self test.
+2016-02-17 23:46:32,516 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Prosody Power-on self test complete.
+2016-02-17 23:46:32,517 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.SimplePhoneme2AP Module started (SIMPLEPHONEMES->ACOUSTPARAMS, locale en_US).
+2016-02-17 23:46:32,517 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.SimplePhoneme2AP Starting power-on self test.
+2016-02-17 23:46:32,517 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.SimplePhoneme2AP Power-on self test complete.
+2016-02-17 23:46:32,518 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Utt2XML WordsEn Module started (FREETTS_WORDS->WORDS, locale en).
+2016-02-17 23:46:32,518 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Utt2XML WordsEn Starting power-on self test.
+2016-02-17 23:46:32,518 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.Utt2XML WordsEn Power-on self test complete.
+2016-02-17 23:46:32,518 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.XML2Utt TokensEn Module started (TOKENS->FREETTS_TOKENS, locale en).
+2016-02-17 23:46:32,518 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.XML2Utt TokensEn Starting power-on self test.
+2016-02-17 23:46:32,518 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.XML2Utt TokensEn Power-on self test complete.
+2016-02-17 23:46:32,518 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale en).
+2016-02-17 23:46:32,518 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PronunciationModel Starting power-on self test.
+2016-02-17 23:46:32,519 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.PronunciationModel Power-on self test complete.
+2016-02-17 23:46:32,519 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.OpenNLPPosTagger Module started (WORDS->PARTSOFSPEECH, locale en).
+2016-02-17 23:46:32,954 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.OpenNLPPosTagger Starting power-on self test.
+2016-02-17 23:46:32,954 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.OpenNLPPosTagger Power-on self test complete.
+2016-02-17 23:46:32,954 [Start Level: Equinox Container: 20450cf1-02d6-0015-1566-cec0b690c619] INFO  marytts.main Startup complete.
+2016-02-17 23:47:34,394 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.main Mary starting up...
+2016-02-17 23:47:34,397 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.main Specification version 5.1-SNAPSHOT
+2016-02-17 23:47:34,397 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.main Implementation version unknown
+2016-02-17 23:47:34,397 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.main Running on a Java 1.8.0_73 implementation by Oracle Corporation, on a Windows 10 platform (amd64, 10.0)
+2016-02-17 23:47:34,466 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2016-02-17 23:47:34,470 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2016-02-17 23:47:34,470 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2016-02-17 23:47:34,471 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2016-02-17 23:47:34,471 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2016-02-17 23:47:34,471 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2016-02-17 23:47:34,472 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2016-02-17 23:47:34,472 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2016-02-17 23:47:34,472 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2016-02-17 23:47:34,475 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2016-02-17 23:47:34,475 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2016-02-17 23:47:34,476 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2016-02-17 23:47:34,476 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2016-02-17 23:47:34,477 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2016-02-17 23:47:34,477 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2016-02-17 23:47:34,477 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2016-02-17 23:47:34,478 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2016-02-17 23:47:34,479 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JTokeniser'
+2016-02-17 23:47:34,479 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Preprocess'
+2016-02-17 23:47:34,480 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(de,de.pos)'
+2016-02-17 23:47:34,480 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JPhonemiser'
+2016-02-17 23:47:34,481 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JPhonemiser_de User dictionary '.\user-dictionaries\userdict-de.txt' for locale 'de' does not exist. Ignoring.
+2016-02-17 23:47:34,507 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Prosody'
+2016-02-17 23:47:34,507 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Postlex'
+2016-02-17 23:47:34,508 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(de)'
+2016-02-17 23:47:34,508 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.JTokeniser'
+2016-02-17 23:47:34,509 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.FreeTTSTokenToWords'
+2016-02-17 23:47:34,510 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_US.)'
+2016-02-17 23:47:34,510 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_US.txt' for locale 'en_US' does not exist. Ignoring.
+2016-02-17 23:47:34,538 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_GB.)'
+2016-02-17 23:47:34,538 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_GB.txt' for locale 'en_GB' does not exist. Ignoring.
+2016-02-17 23:47:34,555 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Prosody'
+2016-02-17 23:47:34,555 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(en_US)'
+2016-02-17 23:47:34,555 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Utt2XMLWordsEn'
+2016-02-17 23:47:34,556 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.XML2UttTokensEn'
+2016-02-17 23:47:34,559 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.PronunciationModel'
+2016-02-17 23:47:34,559 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(en,en.pos)'
+2016-02-17 23:47:34,561 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.UnitSelectionSynthesizer started.
+2016-02-17 23:47:34,562 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2016-02-17 23:47:34,562 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2016-02-17 23:47:34,573 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2016-02-17 23:47:34,604 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.HMMData Loading GV Model Set:
+2016-02-17 23:47:34,703 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Voice Registering voice `cmu-slt-hsmm': female, locale en_US
+2016-02-17 23:47:34,716 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Voice New default voice for locale en_US: cmu-slt-hsmm (desire 0)
+2016-02-17 23:47:34,720 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2016-02-17 23:47:34,786 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.HMMData Loading GV Model Set:
+2016-02-17 23:47:34,907 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Voice Registering voice `bits1-hsmm': female, locale de
+2016-02-17 23:47:34,907 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Voice New default voice for locale de: bits1-hsmm (desire 0)
+2016-02-17 23:47:34,914 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2016-02-17 23:47:34,954 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.HMMData Loading GV Model Set:
+2016-02-17 23:47:35,014 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Voice Registering voice `bits3-hsmm': male, locale de
+2016-02-17 23:47:35,014 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.HMMSynthesizer started.
+2016-02-17 23:47:35,015 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Synthesis Module started (ACOUSTPARAMS->AUDIO, locale null).
+2016-02-17 23:47:35,015 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.HMMSynthesizer Starting power-on self test.
+2016-02-17 23:47:35,026 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.HTSEngine Using prosody from acoustparams.
+2016-02-17 23:47:35,027 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.HTSEngine Number of models in sentence numModel=7  Total number of states numState=35
+2016-02-17 23:47:35,027 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.HTSEngine Total number of frames=147  Number of voiced frames=89
+2016-02-17 23:47:35,030 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ParameterGeneration Parameter generation for MGC: 
+2016-02-17 23:47:35,030 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 107
+2016-02-17 23:47:35,033 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=23
+2016-02-17 23:47:35,037 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=54
+2016-02-17 23:47:35,040 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=47
+2016-02-17 23:47:35,041 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=20
+2016-02-17 23:47:35,042 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=13
+2016-02-17 23:47:35,043 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (5)  number of iterations=21
+2016-02-17 23:47:35,044 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (6)  number of iterations=7
+2016-02-17 23:47:35,045 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (7)  number of iterations=4
+2016-02-17 23:47:35,045 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (8)  number of iterations=11
+2016-02-17 23:47:35,046 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (9)  number of iterations=19
+2016-02-17 23:47:35,046 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (10)  number of iterations=16
+2016-02-17 23:47:35,047 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (11)  number of iterations=8
+2016-02-17 23:47:35,047 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (12)  number of iterations=2
+2016-02-17 23:47:35,047 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (13)  number of iterations=13
+2016-02-17 23:47:35,048 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (14)  number of iterations=13
+2016-02-17 23:47:35,048 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (15)  number of iterations=18
+2016-02-17 23:47:35,048 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (16)  number of iterations=14
+2016-02-17 23:47:35,049 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (17)  number of iterations=16
+2016-02-17 23:47:35,049 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (18)  number of iterations=17
+2016-02-17 23:47:35,050 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (19)  number of iterations=12
+2016-02-17 23:47:35,050 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (20)  number of iterations=16
+2016-02-17 23:47:35,050 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (21)  number of iterations=14
+2016-02-17 23:47:35,051 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (22)  number of iterations=12
+2016-02-17 23:47:35,051 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (23)  number of iterations=18
+2016-02-17 23:47:35,051 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (24)  number of iterations=12
+2016-02-17 23:47:35,052 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (25)  number of iterations=10
+2016-02-17 23:47:35,052 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (26)  number of iterations=13
+2016-02-17 23:47:35,052 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (27)  number of iterations=10
+2016-02-17 23:47:35,053 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (28)  number of iterations=13
+2016-02-17 23:47:35,053 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (29)  number of iterations=8
+2016-02-17 23:47:35,053 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (30)  number of iterations=8
+2016-02-17 23:47:35,054 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (31)  number of iterations=14
+2016-02-17 23:47:35,054 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (32)  number of iterations=8
+2016-02-17 23:47:35,054 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (33)  number of iterations=8
+2016-02-17 23:47:35,055 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (34)  number of iterations=14
+2016-02-17 23:47:35,055 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.ParameterGeneration Using f0 from maryXML acoustparams
+2016-02-17 23:47:35,055 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 107
+2016-02-17 23:47:35,055 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=16
+2016-02-17 23:47:35,056 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=2
+2016-02-17 23:47:35,056 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=33
+2016-02-17 23:47:35,056 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=8
+2016-02-17 23:47:35,057 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=26
+2016-02-17 23:47:35,058 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.HMMSynthesizer Power-on self test complete.
+2016-02-17 23:47:35,059 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.TextToMaryXML Module started (TEXT->RAWMARYXML, locale null).
+2016-02-17 23:47:35,059 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.TextToMaryXML Starting power-on self test.
+2016-02-17 23:47:35,059 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.TextToMaryXML Power-on self test complete.
+2016-02-17 23:47:35,166 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.SableParser Module started (SABLE->RAWMARYXML, locale null).
+2016-02-17 23:47:35,166 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.SableParser Starting power-on self test.
+2016-02-17 23:47:35,167 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.SableParser Power-on self test complete.
+2016-02-17 23:47:35,208 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.SSMLParser Module started (SSML->RAWMARYXML, locale null).
+2016-02-17 23:47:35,208 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.SSMLParser Starting power-on self test.
+2016-02-17 23:47:35,208 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.SSMLParser Power-on self test complete.
+2016-02-17 23:47:35,240 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.APMLParser Module started (APML->RAWMARYXML, locale null).
+2016-02-17 23:47:35,240 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.APMLParser Starting power-on self test.
+2016-02-17 23:47:35,240 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.APMLParser Power-on self test complete.
+2016-02-17 23:47:35,259 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.EmotionmlParser Module started (EMOTIONML->RAWMARYXML, locale null).
+2016-02-17 23:47:35,259 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.EmotionmlParser Starting power-on self test.
+2016-02-17 23:47:35,259 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.EmotionmlParser Power-on self test complete.
+2016-02-17 23:47:35,259 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale null).
+2016-02-17 23:47:35,272 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JTokeniser Starting power-on self test.
+2016-02-17 23:47:35,273 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JTokeniser Power-on self test complete.
+2016-02-17 23:47:35,273 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.DummyTokens2Words Module started (TOKENS->WORDS, locale null).
+2016-02-17 23:47:35,273 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.DummyTokens2Words Starting power-on self test.
+2016-02-17 23:47:35,273 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.DummyTokens2Words Power-on self test complete.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale null).
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Prosody Starting power-on self test.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Prosody Power-on self test complete.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale null).
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PronunciationModel Starting power-on self test.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PronunciationModel Power-on self test complete.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.TargetFeatureLister Starting power-on self test.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.TargetFeatureLister Power-on self test complete.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->HALFPHONE_TARGETFEATURES, locale null).
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.TargetFeatureLister Starting power-on self test.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.TargetFeatureLister Power-on self test complete.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.AcousticModeller Module started (ALLOPHONES->ACOUSTPARAMS, locale null).
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.AcousticModeller Starting power-on self test.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.AcousticModeller Power-on self test complete.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Realised acoustparams extractor Module started (AUDIO->REALISED_ACOUSTPARAMS, locale null).
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Realised acoustparams extractor Starting power-on self test.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Realised acoustparams extractor Power-on self test complete.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Realised durations extractor Module started (AUDIO->REALISED_DURATIONS, locale null).
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Realised durations extractor Starting power-on self test.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Realised durations extractor Power-on self test complete.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Praat TextGrid generator Module started (AUDIO->PRAAT_TEXTGRID, locale null).
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Praat TextGrid generator Starting power-on self test.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Praat TextGrid generator Power-on self test complete.
+2016-02-17 23:47:35,275 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale de).
+2016-02-17 23:47:35,281 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JTokeniser Starting power-on self test.
+2016-02-17 23:47:35,283 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JTokeniser Power-on self test complete.
+2016-02-17 23:47:35,283 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Preprocess Module started (TOKENS->WORDS, locale de).
+2016-02-17 23:47:35,283 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Preprocess Starting power-on self test.
+2016-02-17 23:47:35,284 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Preprocess Expanding say-as elements...
+2016-02-17 23:47:35,284 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Preprocess Matching and expanding patterns...
+2016-02-17 23:47:35,297 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Preprocess Done.
+2016-02-17 23:47:35,297 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Preprocess Power-on self test complete.
+2016-02-17 23:47:35,297 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.OpenNLPPosTagger Module started (WORDS->PARTSOFSPEECH, locale de).
+2016-02-17 23:47:35,623 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.OpenNLPPosTagger Starting power-on self test.
+2016-02-17 23:47:35,624 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.OpenNLPPosTagger Power-on self test complete.
+2016-02-17 23:47:35,624 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JPhonemiser_de Module started (PARTSOFSPEECH->PHONEMES, locale de).
+2016-02-17 23:47:35,631 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JPhonemiser_de Starting power-on self test.
+2016-02-17 23:47:35,631 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JPhonemiser_de Power-on self test complete.
+2016-02-17 23:47:35,634 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale de).
+2016-02-17 23:47:35,634 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Prosody Starting power-on self test.
+2016-02-17 23:47:35,634 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Prosody Power-on self test complete.
+2016-02-17 23:47:35,634 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale de).
+2016-02-17 23:47:35,634 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PronunciationModel Starting power-on self test.
+2016-02-17 23:47:35,634 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PronunciationModel Power-on self test complete.
+2016-02-17 23:47:35,635 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.SimplePhoneme2AP Module started (SIMPLEPHONEMES->ACOUSTPARAMS, locale de).
+2016-02-17 23:47:35,635 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.SimplePhoneme2AP Starting power-on self test.
+2016-02-17 23:47:35,635 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.SimplePhoneme2AP Power-on self test complete.
+2016-02-17 23:47:35,635 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale en).
+2016-02-17 23:47:35,641 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JTokeniser Starting power-on self test.
+2016-02-17 23:47:35,641 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JTokeniser Power-on self test complete.
+2016-02-17 23:47:35,641 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.TokenToWords Module started (FREETTS_TOKENS->FREETTS_WORDS, locale en).
+2016-02-17 23:47:35,646 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.TokenToWords Starting power-on self test.
+2016-02-17 23:47:35,646 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.TokenToWords Power-on self test complete.
+2016-02-17 23:47:35,646 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JPhonemiser Module started (PARTSOFSPEECH->PHONEMES, locale en_US).
+2016-02-17 23:47:35,646 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JPhonemiser Starting power-on self test.
+2016-02-17 23:47:35,646 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JPhonemiser Power-on self test complete.
+2016-02-17 23:47:35,646 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JPhonemiser Module started (PARTSOFSPEECH->PHONEMES, locale en_GB).
+2016-02-17 23:47:35,646 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JPhonemiser Starting power-on self test.
+2016-02-17 23:47:35,646 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.JPhonemiser Power-on self test complete.
+2016-02-17 23:47:35,649 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale en).
+2016-02-17 23:47:35,649 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Prosody Starting power-on self test.
+2016-02-17 23:47:35,649 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Prosody Power-on self test complete.
+2016-02-17 23:47:35,649 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.SimplePhoneme2AP Module started (SIMPLEPHONEMES->ACOUSTPARAMS, locale en_US).
+2016-02-17 23:47:35,649 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.SimplePhoneme2AP Starting power-on self test.
+2016-02-17 23:47:35,650 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.SimplePhoneme2AP Power-on self test complete.
+2016-02-17 23:47:35,650 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Utt2XML WordsEn Module started (FREETTS_WORDS->WORDS, locale en).
+2016-02-17 23:47:35,650 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Utt2XML WordsEn Starting power-on self test.
+2016-02-17 23:47:35,650 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.Utt2XML WordsEn Power-on self test complete.
+2016-02-17 23:47:35,650 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.XML2Utt TokensEn Module started (TOKENS->FREETTS_TOKENS, locale en).
+2016-02-17 23:47:35,651 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.XML2Utt TokensEn Starting power-on self test.
+2016-02-17 23:47:35,651 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.XML2Utt TokensEn Power-on self test complete.
+2016-02-17 23:47:35,651 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale en).
+2016-02-17 23:47:35,651 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PronunciationModel Starting power-on self test.
+2016-02-17 23:47:35,651 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.PronunciationModel Power-on self test complete.
+2016-02-17 23:47:35,651 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.OpenNLPPosTagger Module started (WORDS->PARTSOFSPEECH, locale en).
+2016-02-17 23:47:36,096 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.OpenNLPPosTagger Starting power-on self test.
+2016-02-17 23:47:36,096 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.OpenNLPPosTagger Power-on self test complete.
+2016-02-17 23:47:36,096 [Start Level: Equinox Container: 10823b17-03d6-0015-1627-81326ed7ee47] INFO  marytts.main Startup complete.
