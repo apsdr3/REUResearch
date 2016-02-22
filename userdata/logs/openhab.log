@@ -1,0 +1,113 @@
+2016-02-21 19:38:46.171 [INFO ] [.openhab.core.internal.CoreActivator] - openHAB runtime has been started (v2.0.0, build b2).
+2016-02-21 19:38:57.785 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'basicui.sitemap'
+2016-02-21 19:38:57.955 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2016-02-21 19:38:57.970 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'basicui.script'
+2016-02-21 19:38:58.041 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2016-02-21 19:38:58.045 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'basicui.items'
+2016-02-21 19:38:58.077 [ERROR] [org.apache.felix.configadmin        ] - [org.osgi.service.cm.ManagedService, id=81, bundle=106/mvn:org.eclipse.smarthome.model/org.eclipse.smarthome.model.core/0.8.0.b3]: Unexpected problem updating configuration org.eclipse.smarthome.folder
+java.lang.NullPointerException
+	at org.eclipse.smarthome.model.item.internal.GenericItemProvider.createItemFromModelItem(GenericItemProvider.java:206)[107:org.eclipse.smarthome.model.item:0.8.0.b3]
+	at org.eclipse.smarthome.model.item.internal.GenericItemProvider.processBindingConfigsFromModel(GenericItemProvider.java:166)[107:org.eclipse.smarthome.model.item:0.8.0.b3]
+	at org.eclipse.smarthome.model.item.internal.GenericItemProvider.modelChanged(GenericItemProvider.java:396)[107:org.eclipse.smarthome.model.item:0.8.0.b3]
+	at org.eclipse.smarthome.model.core.internal.ModelRepositoryImpl.notifyListeners(ModelRepositoryImpl.java:200)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.eclipse.smarthome.model.core.internal.ModelRepositoryImpl.addOrRefreshModel(ModelRepositoryImpl.java:97)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.eclipse.smarthome.model.core.internal.folder.FolderObserver.checkFile(FolderObserver.java:240)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.eclipse.smarthome.model.core.internal.folder.FolderObserver.notifyUpdateToModelRepo(FolderObserver.java:169)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.eclipse.smarthome.model.core.internal.folder.FolderObserver.updated(FolderObserver.java:150)[106:org.eclipse.smarthome.model.core:0.8.0.b3]
+	at org.apache.felix.cm.impl.helper.ManagedServiceTracker.updated(ManagedServiceTracker.java:189)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.helper.ManagedServiceTracker.updateService(ManagedServiceTracker.java:152)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.helper.ManagedServiceTracker.provideConfiguration(ManagedServiceTracker.java:85)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.ConfigurationManager$UpdateConfiguration.run(ConfigurationManager.java:1753)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run0(UpdateThread.java:143)[7:org.apache.felix.configadmin:1.8.8]
+	at org.apache.felix.cm.impl.UpdateThread.run(UpdateThread.java:110)[7:org.apache.felix.configadmin:1.8.8]
+	at java.lang.Thread.run(Unknown Source)[:1.8.0_73]
+2016-02-21 19:38:59.995 [INFO ] [.openhab.core.internal.CoreActivator] - openHAB runtime has been terminated.
+2016-02-21 19:39:00.378 [INFO ] [.openhab.core.internal.CoreActivator] - openHAB runtime has been started (v2.0.0, build b2).
+2016-02-21 19:39:02.485 [INFO ] [basic.internal.servlet.WebAppServlet] - Started Basic UI at /basicui/app
+2016-02-21 19:39:02.504 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Started Paper UI at /ui
+2016-02-21 19:39:02.631 [INFO ] [.dashboard.internal.DashboardService] - Started dashboard at /start
+2016-02-21 19:39:02.871 [INFO ] [assic.internal.servlet.WebAppServlet] - Started Classic UI at /classicui/app
+2016-02-21 19:39:02.918 [INFO ] [core.karaf.internal.FeatureInstaller] - Installed 'openhab-package-demo'
+2016-02-21 19:39:03.867 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'ntp:ntp:local' to inbox.
+2016-02-21 19:39:03.874 [INFO ] [smarthome.event.InboxAddedEvent     ] - Discovery Result with UID 'ntp:ntp:local' has been added.
+2016-02-21 19:39:04.647 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gFF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.648 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.648 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.648 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gFF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.648 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gFF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.648 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gGF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.649 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.649 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.649 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gGF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.649 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gGF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.649 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gC' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.649 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.649 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.649 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gC' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.649 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gC' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.650 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Garden' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.650 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.650 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.650 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Garden' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.650 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Garden' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:39:04.651 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Sun_Elevation' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.651 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.652 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.652 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Sun_Elevation' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.652 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Sun_Elevation' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.652 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Weather_Temperature' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.652 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.652 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.653 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Weather_Temperature' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.653 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Weather_Temperature' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.653 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve color item Weather_LastUpdate for widget
+2016-02-21 19:39:04.654 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve color item Weather_LastUpdate for widget
+2016-02-21 19:39:04.654 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'CurrentDate' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.654 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.654 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.654 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'CurrentDate' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:04.655 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'CurrentDate' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:39:18.917 [INFO ] [smarthome.event.ExtensionEvent      ] - Extension 'binding-mqtt' has been installed.
+2016-02-21 19:39:45.443 [WARN ] [mqtt.internal.MqttPersistenceService] - mqtt-persistence:broker
+2016-02-21 19:39:45.443 [WARN ] [mqtt.internal.MqttPersistenceService] - mqtt-persistence:topic
+2016-02-21 19:39:45.443 [WARN ] [mqtt.internal.MqttPersistenceService] - mqtt-persistence:message
+2016-02-21 19:39:45.451 [INFO ] [smarthome.event.ExtensionEvent      ] - Extension 'persistence-mqtt' has been installed.
+2016-02-21 19:39:57.975 [INFO ] [smarthome.event.ExtensionEvent      ] - Extension 'misc-myopenhab' has been installed.
+2016-02-21 19:40:05.294 [ERROR] [o.myopenhab.internal.MyOpenHABClient] - Socket.IO error: not authorized
+2016-02-21 19:40:28.652 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gFF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.653 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.653 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.653 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gFF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.653 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gFF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.654 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gGF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.654 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.654 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.654 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gGF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.654 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gGF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.655 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gC' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.655 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.655 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.655 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gC' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.655 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'gC' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.655 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Garden' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.655 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.656 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.656 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Garden' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.656 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Garden' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-02-21 19:40:28.656 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Sun_Elevation' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.656 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.656 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.657 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Sun_Elevation' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.657 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Sun_Elevation' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.658 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Weather_Temperature' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.658 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.658 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.658 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Weather_Temperature' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.658 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Weather_Temperature' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.658 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve color item Weather_LastUpdate for widget
+2016-02-21 19:40:28.659 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve color item Weather_LastUpdate for widget
+2016-02-21 19:40:28.659 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'CurrentDate' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.659 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.659 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.659 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'CurrentDate' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-02-21 19:40:28.660 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'CurrentDate' for widget org.eclipse.smarthome.model.sitemap.Text
