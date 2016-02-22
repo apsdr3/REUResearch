@@ -1,16 +1,7 @@
-rule "Arduino"
- when
-      Item Arduino received update
- then
-      var String ArduinoUpdate = Arduino.state.toString.trim
-
-      var int weightStartsOn = ArduinoUpdate.indexOf("weight:") + "weight:".length
-      var String weight = ArduinoUpdate.mid(weightStartsOn, ArduinoUpdate.indexOf('_')-weightStartsOn)
-
-      Arduino_weight.postUpdate(weight)
-
-      var int temperatureStartsOn = ArduinoUpdate.indexOf("temperature:") + "temperature:".length
-      var String temperature = ArduinoUpdate.mid(temperatureStartsOn, ArduinoUpdate.indexOf(';')-temperatureStartsOn)
-
-      Arduino_temperature.postUpdate(temperature)
-end
+import org.openhab.core.library.types.*
+import org.openhab.core.persistence.*
+import org.openhab.model.script.actions.*
+import org.joda.time.*
+import java.util.*
+import org.eclipse.xtext.xbase.lib.*
+import org.openhab.core.items.*
