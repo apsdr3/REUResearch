@@ -1,1 +1,2 @@
-String Arduino "Arduino [%s]" (arduino) {serial="/dev/ttyACM0"}
+//connects the term Arduino to the serial USB port
+String Arduino "Arduino [%s]" {serial="COM3"}
