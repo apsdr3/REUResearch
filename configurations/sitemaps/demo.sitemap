@@ -1,4 +1,5 @@
+//sitemap url: http://localhost:8080/openhab.app?sitemap=demo
 sitemap demo label="REU"
 {
-	Text item = Arduino
+	Chart item=Arduino_graph label=Chart perdiod=4h refresh=3000
 }

@@ -34,5 +34,5 @@ java $debug_opts \
 	-Dfelix.fileinstall.active.level=4 \
 	-Djava.awt.headless=true \
 	-jar $cp $* \
-	-Dgnu.io.rxtx.SerialPorts=COM3
+	-Dgnu.io.rxtx.SerialPorts=/dev/ttyUSB0
 	-console
