@@ -1,7 +1,8 @@
 //connects the term Arduino to the serial USB port
-//String Arduino "Arduino [%s]" {serial="/dev/ttyUSB0"}
+Number Arduino "Arduino [%s]" (arduino) {serial="COM3"}
 
-//code to connect data to number variable
-Number Arduino_graph "[%d]" {serial="/dev/ttyUSB0"}
+String Arduino_weight "Weight [%s]"  
+String Arduino_temperature "Temperature [%s]"
+
 //to look for graph
-//http://localhost:8080/chart?groups=REU&period=h&h=800&w=1200
+//http://localhost:8080/chart?items=Arduino&period=h&random=1
