@@ -1,5 +1,9 @@
 //sitemap url: http://localhost:8080/openhab.app?sitemap=demo
 sitemap demo label="REU"
 {
-	Chart item=Arduino_graph label=Chart perdiod=4h refresh=3000
+	Frame label=Arduino
+	{
+		Text item=Arduino label="Weight"
+	}
+	Chart item=Weight label="Arduino Chart" perdiod=h refresh=3000
 }
