@@ -352,3 +352,4 @@
 127.0.0.1 -  -  [17/Apr/2016:02:48:43 +0000] "GET /openhab.app?sitemap=demo&poll=true&__async=true&__source=waHome HTTP/1.1" 200 92 
 127.0.0.1 -  -  [17/Apr/2016:02:48:54 +0000] "GET /openhab.app?sitemap=demo&poll=true&__async=true&__source=waHome HTTP/1.1" 200 92 
 127.0.0.1 -  -  [17/Apr/2016:02:49:04 +0000] "GET /openhab.app?sitemap=demo&poll=true&__async=true&__source=waHome HTTP/1.1" 200 92 
+127.0.0.1 -  -  [17/Apr/2016:02:49:15 +0000] "GET /openhab.app?sitemap=demo&poll=true&__async=true&__source=waHome HTTP/1.1" 200 92 
