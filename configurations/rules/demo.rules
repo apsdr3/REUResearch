@@ -2,6 +2,6 @@ rule "Arduino sends to openHAB"
 when
 	Item Arduino recieved update
 then 
-	var Integer Weight = new Integer (Arduino)
+	var Integer Weight = new Integer(Arduino)
 	Weight.sendUpdate(Weight)
-end rule
+end

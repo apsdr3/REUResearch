@@ -3,7 +3,8 @@ sitemap demo label="REU"
 {
 	Frame label=Arduino
 	{
-		Text item=Arduino label="Weight"
+		Text item=Arduino label="String Weight"
+		Text item=Weight label="Decimal Weight"
 	}
-	Chart item=Weight label="Arduino Chart" perdiod=h refresh=3000
+	Chart item=Weight label="Arduino Chart" service="mysql" perdiod=h refresh=30000
 }

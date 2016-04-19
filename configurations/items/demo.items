@@ -1,3 +1,5 @@
+Group arduino
+
 //connects the term Arduino to the serial USB port
 String Arduino "Arduino [%s]" (arduino) {serial="/dev/ttyUSB0"}
 Number Weight "Weight [%s]" (arduino)
