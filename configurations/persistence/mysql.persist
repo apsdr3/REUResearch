@@ -5,5 +5,5 @@ Strategies{
 
 Items{
 	
-	Weight* : strategy = everyChange, restoreOnStartup
+	* : strategy = everyChange, restoreOnStartup
 }
