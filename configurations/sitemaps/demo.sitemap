@@ -3,7 +3,7 @@ sitemap demo label="REU"
 {
 	Frame label="Arduino"
 	{
-		Text label="Weight" item=Weight
+		Text label="Weight" item=Arduino
 	}
 	Frame label="Arduino Graph" 
 	{

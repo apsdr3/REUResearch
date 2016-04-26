@@ -1,9 +1,4 @@
 import org.openhab.core.library.types.*
-import org.openhab.core.persistence.*
-import org.openhab.model.script.actions.*
-import java.lang.Integer
-import java.lang.Double
-import java.lang.String
 
 rule "Arduino sends to Openhab"
 when

@@ -1,9 +1,9 @@
 Strategies{
+
 	default = everyChange
 }
 
 Items{
-	* : strategy = everyChange, restoreOnStartup
 	
 	Weight* : strategy = everyChange, restoreOnStartup
 }
