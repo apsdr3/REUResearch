@@ -1,12 +1,14 @@
-import org.openhab.core.library.type.*
+import org.openhab.core.library.types.*
 import org.openhab.core.persistence.*
 import org.openhab.model.script.actions.*
-import java.lang.Integer.*
+import java.lang.Integer
+import java.lang.Double
+import java.lang.String
 
 rule "Arduino sends to Openhab"
 when
 	Item Arduino received update
 then
-	var Integer newWeight = Integer::parseInt(Arduino.state.toString)
-	Weigth.sendUpdate(newWeight)
-end rule
+	var Double newWeight = new Double(Arduino.state.toString)
+	Weight.postUpdate(newWeight)
+end

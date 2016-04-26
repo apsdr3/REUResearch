@@ -1,7 +1,7 @@
 Group arduino
 
 //connects the term Arduino to the serial USB port
-String Arduino "Arduino [%s]" (arduino) {serial="/dev/ttyACM1"}
+String Arduino "Arduino [%s]" (arduino) {serial="/dev/ttyACM0"}
 
 //Takes String Arduino and changes it to a Number using a rule
 Number Weight "[%s]" (arduino)

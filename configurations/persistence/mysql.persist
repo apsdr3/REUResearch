@@ -3,5 +3,7 @@ Strategies{
 }
 
 Items{
-	* : strategy = default, restoreOnStarup
+	* : strategy = everyChange, restoreOnStartup
+	
+	Weight* : strategy = everyChange, restoreOnStartup
 }
