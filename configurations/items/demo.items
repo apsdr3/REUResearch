@@ -1,8 +1,3 @@
-Group arduino
-
-//connects the term Arduino to the serial USB port
-String Arduino "Arduino [%s]" (arduino) {serial="COM3"}
-
-//Takes String Arduino and changes it to a Number using a rule
-Number Weight "[%s]" (arduino)
-//chart: http://localhost:8080/chart?items=Weight&period=h&service=mysql
+Group	arduino
+String	Arduino	"Arduino [%s]"	(arduino)		{ serial="COM3" }
+Number	Weight	" [%s]"	(arduino)	

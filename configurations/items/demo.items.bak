@@ -1,0 +1,3 @@
+Group	arduino
+String	Arduino	"Arduino [%s]"	(arduino)		{ serial="COM3" }
+Number	Weight	"Arduino [%s]"	(arduino)	
