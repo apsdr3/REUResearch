@@ -1,3 +1,8 @@
 Group	arduino
+
 String	Arduino	"Arduino [%s]"	(arduino)		{ serial="COM3" }
-Number	Weight	" [%s]"	(arduino)	
+
+Number	Weight	" [%s]"	(arduino)
+
+//graph url: http://localhost:8080/chart?item=Weight&period=h&h=800&w=1200
+//habmin url: http://localhost:8080/habmin/index.html 

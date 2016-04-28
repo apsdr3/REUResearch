@@ -1,12 +1,5 @@
 //sitemap url: http://localhost:8080/openhab.app?sitemap=demo
 sitemap demo label="REU"
 {
-	Frame label="Arduino"
-	{
-		Text label="Weight" item=Arduino
-	}
-	Frame label="Arduino Graph" 
-	{
-        Chart label="Weight" item=Weight period=h refresh=2000
-    }
+    Chart item=Weight period=h refresh=2000
 }
